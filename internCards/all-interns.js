@@ -3,17 +3,17 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('http://localhost:3000/api/interns')
         .then(response => response.json())
         .then(data => {
-            renderInterns(data.slice(0, 4)); // Only render the first 4 interns
+            renderAllInterns(data);
         })
         .catch(error => console.error('Error fetching interns:', error));
 
-    function renderInterns(interns) {
-        const container = document.getElementById('interns-container');
+    function renderAllInterns(interns) {
+        const container = document.getElementById('all-interns-container');
         container.innerHTML = '';
         
         interns.forEach(intern => {
             const internCard = `
-                <div class="col-md-3">
+                <div class="col-md-3 mb-4">
                     <div class="intern-card">
                         <div class="intern-image" style="background-image: url('${intern.photo}');"></div>
                         <div class="intern-info">
