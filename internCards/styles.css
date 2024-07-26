@@ -1,11 +1,32 @@
 body {
   background-color: #A9A9A9;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1 0 auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
 .header {
   background-color: #414042;
   color: white;
   padding: 10px 0;
+  position: fixed;
+  top:0;
+  width: 100%;
+  z-index: 1000;
 }
 .header .logo h1 {
   margin: 0;
@@ -103,4 +124,31 @@ body {
   color: white;
 }
 
+.footer {
+  background-color: #414042;
+  color: #ffffff;
+  flex-shrink: 0;
+  
+  
+}
+.footer .footer-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+
+}
+.footer .footer-subtitle {
+  font-size: 0.875rem;
+  font-weight: lighter;
+}
+.footer .footer-link {
+  color: #ffffff;
+}
+.footer .footer-link:hover {
+  color: #f96302;
+  text-decoration: none;
+}
+.footer .footer-text {
+  font-size: 0.875rem;
+}
 /*# sourceMappingURL=styles.css.map */

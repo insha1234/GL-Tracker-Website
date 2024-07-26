@@ -5,20 +5,42 @@ $button-radius: 20px;
 $see-more-hover-bg: #f37037;
 $carousel-bg: #333;
 $carousel-text-color: #fff;
+$footer-bg-color: #414042;
+$footer-text-color: #ffffff;
+$footer-link-hover-color: #f96302;
 
+html,body{
+    margin: 0;
+    padding: 0;
+    height:100%;
+    
+}
 body {
     background-color: $page-bg;
     margin: 0;
     padding: 0;
+    display:flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .header {
     background-color: $header-bg;
     color: white;
     padding: 10px 0;
-    z-index: 1000; // Ensure header is above other content
+    z-index: 1000;
+    position: fixed;
+    top:0;
+    width: 100%;// Ensure header is above other content
 }
 
+
+main{
+    flex: 1 0 auto;
+    margin-top : 70px;
+    margin-bottom : 50px;
+    
+}
 .header.sticky-top {
     position: sticky;
     top: 0;
@@ -221,4 +243,37 @@ body {
         }
     }
     
+    .footer {
+        background-color: $footer-bg-color;
+        color: $footer-text-color;
+        flex-shrink: 0;
+        
+    
+        
+    
+    
+        .footer-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    
+        .footer-subtitle {
+            font-size: 0.875rem;
+            font-weight: lighter;
+        }
+    
+        .footer-link {
+            color: $footer-text-color;
+            &:hover {
+                color: $footer-link-hover-color;
+                text-decoration: none;
+            }
+        }
+    
+        .footer-text {
+            font-size: 0.875rem;
+    }
+    
+}   
+
 
