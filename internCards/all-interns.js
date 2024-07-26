@@ -25,7 +25,8 @@ document.addEventListener("DOMContentLoaded", function() {
                             <a href="${intern.linkedin}" class="social-icon"><i class="fab fa-linkedin"></i></a>
                             <a href="${intern.github}" class="social-icon"><i class="fab fa-github"></i></a>
                             <a href="${intern.website}" class="social-icon"><i class="fas fa-globe"></i></a>
-                            <a href="${intern.instagram}" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="${intern.twitter}" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="${intern.companyProfile}" class="social-icon"><i class="fas fa-building"></i></a>
                         </div>
                     </div>
                 </div>
