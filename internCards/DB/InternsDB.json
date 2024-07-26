@@ -1,208 +1,226 @@
-[{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e8e"
+[
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e8e"
+    },
+    "name": "Muskan Arya",
+    "role": "Full-Stack Developer",
+    "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
+    "photo": "https://media.licdn.com/dms/image/D5603AQGlZegBnXfm9Q/profile-displayphoto-shrink_800_800/0/1710079675879?e=1727308800&v=beta&t=OIYzXq1oeZjBwdWb3RxcMxOafs2kbLd2T3T29_nOlf4",
+    "linkedin": "https://www.linkedin.com/in/muskan-arya-2210arya/",
+    "github": "https://github.com/MuskanArya22",
+    "website": "https://muskanarya22.github.io/Muskans-Portfolio/",
+    "twitter": "https://x.com/MuskanA82333319",
+    "company": "https://company.com/muskan-arya"
   },
-  "name": "Muskan Arya",
-  "role": "Full-Stack Developer",
-  "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
-  "photo": "https://media.licdn.com/dms/image/D5603AQGlZegBnXfm9Q/profile-displayphoto-shrink_800_800/0/1710079675879?e=1727308800&v=beta&t=OIYzXq1oeZjBwdWb3RxcMxOafs2kbLd2T3T29_nOlf4",
-  "linkedin": "https://www.linkedin.com/in/muskan-arya-2210arya/",
-  "github": "https://github.com/MuskanArya22",
-  "website": "https://muskanarya22.github.io/Muskans-Portfolio/",
-  "instagram": "https://www.instagram.com/muskan_arya_2210/"
-},
-{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e8f"
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e8f"
+    },
+    "name": "Insha Khan",
+    "role": "Data Scientist",
+    "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
+    "photo": "https://media.licdn.com/dms/image/D5603AQG9szZrX8YRKg/profile-displayphoto-shrink_400_400/0/1721828483157?e=1727308800&v=beta&t=-KOGZC_8s2D2kcT-eK6mtd_hc-xNfnSDqaEjbVLZmwg",
+    "linkedin": "https://www.linkedin.com/in/insha-khan-765023276/",
+    "github": "https://github.com/insha1234",
+    "website": "https://inshakhan.com",
+    "twitter": "https://twitter.com/_.inssshhh._",
+    "company": "https://company.com/insha-khan"
   },
-  "name": "Insha Khan",
-  "role": "Data Scientist",
-  "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
-  "photo": "https://media.licdn.com/dms/image/D5603AQG9szZrX8YRKg/profile-displayphoto-shrink_400_400/0/1721828483157?e=1727308800&v=beta&t=-KOGZC_8s2D2kcT-eK6mtd_hc-xNfnSDqaEjbVLZmwg",
-  "linkedin": "https://www.linkedin.com/in/insha-khan-765023276/",
-  "github": "https://github.com/insha1234",
-  "website": "https://inshakhan.com",
-  "instagram": "https://www.instagram.com/_.inssshhh._/"
-},
-{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e90"
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e90"
+    },
+    "name": "Aashi Chaudhary",
+    "role": "Full-Stack Developer",
+    "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
+    "photo": "https://media.licdn.com/dms/image/D4D03AQGAY4REjsNrNQ/profile-displayphoto-shrink_200_200/0/1679035759452?e=2147483647&v=beta&t=fBSBqRF7tDvs-kBS3r1drFv4KPrSlFJP3a49bg0jRcY",
+    "linkedin": "https://www.linkedin.com/in/aashi-chaudhary-97952a246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "github": "https://github.com/aaxhi",
+    "website": "https://aashichaudhary.com",
+    "twitter": "https://twitter.com/aaxhii_",
+    "company": "https://company.com/aashi-chaudhary"
   },
-  "name": "Aashi Chaudhary",
-  "role": "Full-Stack Developer",
-  "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
-  "photo": "https://media.licdn.com/dms/image/D4D03AQGAY4REjsNrNQ/profile-displayphoto-shrink_200_200/0/1679035759452?e=2147483647&v=beta&t=fBSBqRF7tDvs-kBS3r1drFv4KPrSlFJP3a49bg0jRcY",
-  "linkedin": "https://www.linkedin.com/in/aashi-chaudhary-97952a246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-  "github": "https://github.com/aaxhi",
-  "website": "https://aashichaudhary.com",
-  "instagram": "https://www.instagram.com/aaxhii_/?igsh=MzE1YWdxMmE5cWYx"
-},
-{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e91"
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e91"
+    },
+    "name": "John Doe",
+    "role": "Frontend Developer",
+    "description": "An enthusiastic frontend developer with a keen eye for detail. Specializes in creating responsive and user-friendly web interfaces.",
+    "photo": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "linkedin": "https://linkedin.com/in/johndoe",
+    "github": "https://github.com/johndoe",
+    "website": "https://johndoe.com",
+    "twitter": "https://twitter.com/johndoe",
+    "company": "https://company.com/john-doe"
   },
-  "name": "John Doe",
-  "role": "Frontend Developer",
-  "description": "An enthusiastic frontend developer with a keen eye for detail. Specializes in creating responsive and user-friendly web interfaces.",
-  "photo": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=800",
-  "linkedin": "https://linkedin.com/in/johndoe",
-  "github": "https://github.com/johndoe",
-  "website": "https://johndoe.com",
-  "instagram": "https://instagram.com/johndoe"
-},
-{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e92"
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e92"
+    },
+    "name": "Jane Smith",
+    "role": "Backend Developer",
+    "description": "A highly skilled backend developer with a passion for building scalable and efficient server-side applications.",
+    "photo": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "linkedin": "https://linkedin.com/in/janesmith",
+    "github": "https://github.com/janesmith",
+    "website": "https://janesmith.com",
+    "twitter": "https://twitter.com/janesmith",
+    "company": "https://company.com/jane-smith"
   },
-  "name": "Jane Smith",
-  "role": "Backend Developer",
-  "description": "A highly skilled backend developer with a passion for building scalable and efficient server-side applications.",
-  "photo": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800",
-  "linkedin": "https://linkedin.com/in/janesmith",
-  "github": "https://github.com/janesmith",
-  "website": "https://janesmith.com",
-  "instagram": "https://instagram.com/janesmith"
-},
-{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e93"
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e93"
+    },
+    "name": "Emily Davis",
+    "role": "UI/UX Designer",
+    "description": "A creative and highly skilled UI/UX designer dedicated to crafting intuitive and aesthetically pleasing user experiences.",
+    "photo": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "linkedin": "https://linkedin.com/in/emilydavis",
+    "github": "https://github.com/emilydavis",
+    "website": "https://emilydavis.com",
+    "twitter": "https://twitter.com/emilydavis",
+    "company": "https://company.com/emily-davis"
   },
-  "name": "Emily Davis",
-  "role": "UI/UX Designer",
-  "description": "A creative and highly skilled UI/UX designer dedicated to crafting intuitive and aesthetically pleasing user experiences.",
-  "photo": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=800",
-  "linkedin": "https://linkedin.com/in/emilydavis",
-  "github": "https://github.com/emilydavis",
-  "website": "https://emilydavis.com",
-  "instagram": "https://instagram.com/emilydavis"
-},
-{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e94"
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e94"
+    },
+    "name": "Michael Brown",
+    "role": "Data Scientist",
+    "description": "A data scientist with a strong background in machine learning and data analysis. Passionate about deriving insights from data.",
+    "photo": "https://images.pexels.com/photos/3748221/pexels-photo-3748221.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "linkedin": "https://linkedin.com/in/michaelbrown",
+    "github": "https://github.com/michaelbrown",
+    "website": "https://michaelbrown.com",
+    "twitter": "https://twitter.com/michaelbrown",
+    "company": "https://company.com/michael-brown"
   },
-  "name": "Michael Brown",
-  "role": "Data Scientist",
-  "description": "A data scientist with a strong background in machine learning and data analysis. Passionate about deriving insights from data.",
-  "photo": "https://images.pexels.com/photos/3748221/pexels-photo-3748221.jpeg?auto=compress&cs=tinysrgb&w=800",
-  "linkedin": "https://linkedin.com/in/michaelbrown",
-  "github": "https://github.com/michaelbrown",
-  "website": "https://michaelbrown.com",
-  "instagram": "https://instagram.com/michaelbrown"
-},
-{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e95"
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e95"
+    },
+    "name": "Sophia Wilson",
+    "role": "DevOps Engineer",
+    "description": "A DevOps engineer with expertise in CI/CD pipelines, cloud infrastructure, and automation. Committed to improving development workflows.",
+    "photo": "https://images.pexels.com/photos/1239293/pexels-photo-1239293.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "linkedin": "https://linkedin.com/in/sophiawilson",
+    "github": "https://github.com/sophiawilson",
+    "website": "https://sophiawilson.com",
+    "twitter": "https://twitter.com/sophiawilson",
+    "company": "https://company.com/sophia-wilson"
   },
-  "name": "Sophia Wilson",
-  "role": "DevOps Engineer",
-  "description": "A DevOps engineer with expertise in CI/CD pipelines, cloud infrastructure, and automation. Committed to improving development workflows.",
-  "photo": "https://images.pexels.com/photos/1239293/pexels-photo-1239293.jpeg?auto=compress&cs=tinysrgb&w=800",
-  "linkedin": "https://linkedin.com/in/sophiawilson",
-  "github": "https://github.com/sophiawilson",
-  "website": "https://sophiawilson.com",
-  "instagram": "https://instagram.com/sophiawilson"
-},
-{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e96"
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e96"
+    },
+    "name": "Liam Johnson",
+    "role": "Mobile Developer",
+    "description": "A mobile developer with a focus on creating seamless and engaging mobile applications. Skilled in both iOS and Android development.",
+    "photo": "https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "linkedin": "https://linkedin.com/in/liamjohnson",
+    "github": "https://github.com/liamjohnson",
+    "website": "https://liamjohnson.com",
+    "twitter": "https://twitter.com/liamjohnson",
+    "company": "https://company.com/liam-johnson"
   },
-  "name": "Liam Johnson",
-  "role": "Mobile Developer",
-  "description": "A mobile developer with a focus on creating seamless and engaging mobile applications. Skilled in both iOS and Android development.",
-  "photo": "https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=800",
-  "linkedin": "https://linkedin.com/in/liamjohnson",
-  "github": "https://github.com/liamjohnson",
-  "website": "https://liamjohnson.com",
-  "instagram": "https://instagram.com/liamjohnson"
-},
-{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e97"
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e97"
+    },
+    "name": "Olivia Smith",
+    "role": "Cybersecurity Analyst",
+    "description": "A cybersecurity analyst skilled in protecting systems and networks from digital attacks. Experienced in threat detection and incident response.",
+    "photo": "https://images.pexels.com/photos/4359272/pexels-photo-4359272.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "linkedin": "https://linkedin.com/in/oliviasmith",
+    "github": "https://github.com/oliviasmith",
+    "website": "https://oliviasmith.com",
+    "twitter": "https://twitter.com/oliviasmith",
+    "company": "https://company.com/olivia-smith"
   },
-  "name": "Olivia Smith",
-  "role": "Cybersecurity Analyst",
-  "description": "A cybersecurity analyst skilled in protecting systems and networks from digital attacks. Experienced in threat detection and incident response.",
-  "photo": "https://images.pexels.com/photos/4359272/pexels-photo-4359272.jpeg?auto=compress&cs=tinysrgb&w=800",
-  "linkedin": "https://linkedin.com/in/oliviasmith",
-  "github": "https://github.com/oliviasmith",
-  "website": "https://oliviasmith.com",
-  "instagram": "https://instagram.com/oliviasmith"
-},
-{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e98"
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e98"
+    },
+    "name": "Ethan Miller",
+    "role": "Cloud Engineer",
+    "description": "A cloud engineer specializing in designing and managing cloud infrastructure and services. Committed to optimizing cloud solutions for performance and cost-efficiency.",
+    "photo": "https://images.pexels.com/photos/2181971/pexels-photo-2181971.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "linkedin": "https://linkedin.com/in/ethanmiller",
+    "github": "https://github.com/ethanmiller",
+    "website": "https://ethanmiller.com",
+    "twitter": "https://twitter.com/ethanmiller",
+    "company": "https://company.com/ethan-miller"
   },
-  "name": "Ethan Miller",
-  "role": "Cloud Engineer",
-  "description": "A cloud engineer specializing in designing and managing cloud infrastructure and services. Committed to optimizing cloud solutions for performance and cost-efficiency.",
-  "photo": "https://images.pexels.com/photos/2181971/pexels-photo-2181971.jpeg?auto=compress&cs=tinysrgb&w=800",
-  "linkedin": "https://linkedin.com/in/ethanmiller",
-  "github": "https://github.com/ethanmiller",
-  "website": "https://ethanmiller.com",
-  "instagram": "https://instagram.com/ethanmiller"
-},
-{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e99"
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e99"
+    },
+    "name": "Emma Davis",
+    "role": "Product Manager",
+    "description": "A product manager with a strong background in leading cross-functional teams and driving product development. Focused on delivering innovative solutions to meet user needs.",
+    "photo": "https://images.pexels.com/photos/3184364/pexels-photo-3184364.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "linkedin": "https://linkedin.com/in/emmadavis",
+    "github": "https://github.com/emmadavis",
+    "website": "https://emmadavis.com",
+    "twitter": "https://twitter.com/emmadavis",
+    "company": "https://company.com/emma-davis"
   },
-  "name": "Emma Davis",
-  "role": "Product Manager",
-  "description": "A product manager with a strong background in leading cross-functional teams and driving product development. Focused on delivering innovative solutions to meet user needs.",
-  "photo": "https://images.pexels.com/photos/3184364/pexels-photo-3184364.jpeg?auto=compress&cs=tinysrgb&w=800",
-  "linkedin": "https://linkedin.com/in/emmadavis",
-  "github": "https://github.com/emmadavis",
-  "website": "https://emmadavis.com",
-  "instagram": "https://instagram.com/emmadavis"
-},
-{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e9a"
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e9a"
+    },
+    "name": "Lucas Turner",
+    "role": "Software Engineer",
+    "description": "A software engineer with experience in developing high-performance applications and systems. Passionate about coding and technology.",
+    "photo": "https://images.pexels.com/photos/758688/pexels-photo-758688.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "linkedin": "https://linkedin.com/in/lucasturner",
+    "github": "https://github.com/lucasturner",
+    "website": "https://lucasturner.com",
+    "twitter": "https://twitter.com/lucasturner",
+    "company": "https://company.com/lucas-turner"
   },
-  "name": "Lucas Turner",
-  "role": "Software Engineer",
-  "description": "A software engineer with experience in developing high-performance applications and systems. Passionate about coding and technology.",
-  "photo": "https://images.pexels.com/photos/758688/pexels-photo-758688.jpeg?auto=compress&cs=tinysrgb&w=800",
-  "linkedin": "https://linkedin.com/in/lucasturner",
-  "github": "https://github.com/lucasturner",
-  "website": "https://lucasturner.com",
-  "instagram": "https://instagram.com/lucasturner"
-},
-{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e9b"
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e9b"
+    },
+    "name": "Chloe Martinez",
+    "role": "QA Engineer",
+    "description": "A QA engineer focused on ensuring the quality and performance of software products through rigorous testing and debugging.",
+    "photo": "https://images.pexels.com/photos/1669795/pexels-photo-1669795.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "linkedin": "https://linkedin.com/in/chloemartinez",
+    "github": "https://github.com/chloemartinez",
+    "website": "https://chloemartinez.com",
+    "twitter": "https://twitter.com/chloemartinez",
+    "company": "https://company.com/chloe-martinez"
   },
-  "name": "Chloe Martinez",
-  "role": "QA Engineer",
-  "description": "A QA engineer focused on ensuring the quality and performance of software products through rigorous testing and debugging.",
-  "photo": "https://images.pexels.com/photos/1669795/pexels-photo-1669795.jpeg?auto=compress&cs=tinysrgb&w=800",
-  "linkedin": "https://linkedin.com/in/chloemartinez",
-  "github": "https://github.com/chloemartinez",
-  "website": "https://chloemartinez.com",
-  "instagram": "https://instagram.com/chloemartinez"
-},
-{
-  "_id": {
-    "$oid": "66a28d22105ab56280ceb091"
+  {
+    "_id": {
+      "$oid": "66a28d22105ab56280ceb091"
+    },
+    "name": "James Bond",
+    "role": "Full-Stack Developer",
+    "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
+    "photo": "https://pbs.twimg.com/media/GQTOXl2WUAAalUh.jpg",
+    "linkedin": "https://linkedin.com/in/jamesbond",
+    "github": "https://github.com/jamesbond",
+    "website": "https://jamesbond.com",
+    "twitter": "https://twitter.com/jamesbond",
+    "company": "https://company.com/james-bond"
   },
-  "name": "James Bond",
-  "role": "Full-Stack Developer",
-  "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
-  "photo": "https://pbs.twimg.com/media/GQTOXl2WUAAalUh.jpg",
-  "linkedin": "https://linkedin.com/in/jamesbond",
-  "github": "https://github.com/jamesbond",
-  "website": "https://jamesbond.com",
-  "instagram": "https://instagram.com/jamesbond"
-},
-{
-  "_id": {
-    "$oid": "66a268d58a5bccfef4437e9f"
-  },
-  "name": "Hero Fiennes Tiffin",
-  "role": "UI/UX Developer",
-  "description": "An imaginative UI/UX Developer known for blending creativity with technology. Skilled in designing intuitive and aesthetically pleasing user interfaces that enhance overall.",
-  "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAttVnOqj2pwhbt5pHjZUzYW0GhtBRI_LBRw&s",
-  "linkedin": "https://linkedin.com/in/herofiennestiffin",
-  "github": "https://github.com/herofiennestiffin",
-  "website": "https://herofiennestiffin.com",
-  "instagram": "https://instagram.com/herofiennestiffin"
-}]
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e9f"
+    },
+    "name": "Hero Fiennes Tiffin",
+    "role": "UI/UX Developer",
+    "description": "An imaginative UI/UX Developer known for blending creativity with technology. Skilled in designing intuitive and aesthetically pleasing user interfaces that enhance overall.",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAttVnOqj2pwhbt5pHjZUzYW0GhtBRI_LBRw&s",
+    "linkedin": "https://linkedin.com/in/herofiennestiffin",
+    "github": "https://github.com/herofiennestiffin",
+    "website": "https://herofiennestiffin.com",
+    "twitter": "https://twitter.com/herofiennestiffin",
+    "company": "https://company.com/hero-fiennes-tiffin"
+  }
+]
