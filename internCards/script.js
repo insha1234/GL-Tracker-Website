@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
+    // Initialize carousel
+    $('.carousel').carousel({
+        interval: 2500 // 3 seconds
+    });
+
     // Fetch intern data from backend
     fetch('http://localhost:3000/api/interns')
         .then(response => response.json())

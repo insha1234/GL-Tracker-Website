@@ -3,57 +3,127 @@ $button-hover-bg: #f37037;
 $page-bg: #A9A9A9;
 $button-radius: 20px;
 $see-more-hover-bg: #f37037;
+$carousel-bg: #333;
+$carousel-text-color: #fff;
 
 body {
     background-color: $page-bg;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
     background-color: $header-bg;
     color: white;
     padding: 10px 0;
+    z-index: 1000; // Ensure header is above other content
+}
 
-    .logo {
-        h1 {
-            margin: 0;
-            font-size: 24px;
-        }
-        p {
-            margin: 0;
+.header.sticky-top {
+    position: sticky;
+    top: 0;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    .nav-item {
+        margin-left: 20px;
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            &:hover {
+                background-color: $button-hover-bg;
+                color: white;
+            }
         }
     }
+}
 
-    .nav-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        
-        .nav-item {
-            margin-left: 20px;
+.btn-login {
+    background-color: white;
+    color: $header-bg;
+    border: none;
+    border-radius: $button-radius;
+    padding: 5px 15px;
+    &:hover {
+        background-color: $button-hover-bg;
+        color: white;
+    }
+}
 
-            .nav-link {
-                color: white;
-                text-decoration: none;
-                &:hover {
-                    background-color: $button-hover-bg;
-                    color: white;
-                }
+.carousel-section {
+    position: relative;
+    height: 100vh; // Full viewport height
+    overflow: hidden; // Hide overflow to ensure clean appearance
+
+    .carousel-container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; // Center carousel content vertically
+    }
+
+    .carousel-inner {
+        height: 100%;
+        .carousel-item {
+            height: 100%;
+            img {
+                height: 100%;
+                object-fit: cover;
             }
         }
     }
 
-    .btn-login {
-        background-color: white;
-        color: $header-bg;
-        border: none;
-        border-radius: $button-radius;
-        padding: 5px 15px;
-        &:hover {
-            background-color: $button-hover-bg;
-            color: white;
+    .carousel-caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    
+        h1 {
+            color: $carousel-text-color;
+            font-size: 4rem; // Increase the font size for larger text
+            font-weight: 900; // Extra bold
+    
+            .gl {
+                color: #ffffff; // White color for "GL"
+            }
+    
+            .tracker {
+                color: #f37037; // Color for "tracker"
+            }
         }
     }
-}
+    }
+
+    .scroll-down-icon {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 2rem;
+        color: $carousel-text-color;
+        cursor: pointer;
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        i {
+            transition: color 0.3s;
+        }
+
+        &:hover i {
+            color: $button-hover-bg;
+        }
+    }
+
 
 .intern-card {
     position: relative;
@@ -80,26 +150,27 @@ body {
             font-size: 14px;
         }
     }
+
     .social-icons {
-        display: flex; /* Align items in a row */
-        justify-content: center; /* Center the icons horizontally */
+        display: flex;
+        justify-content: center;
         background-color: rgba(0, 0, 0, 0.5);
         padding: 10px;
         border-radius: 5px;
         opacity: 0;
         transition: opacity 0.3s;
-        width: 100%; /* Full width of the parent container */
-        height: 50px; /* Fixed height for the rectangular shape */
-        box-sizing: border-box; /* Include padding in the element's total width and height */
+        width: 100%;
+        height: 50px;
+        box-sizing: border-box;
 
         a {
             color: white;
-            margin: 0 10px; /* Space between icons */
+            margin: 0 10px;
             text-decoration: none;
-            font-size: 20px; /* Adjust size of icons if needed */
+            font-size: 20px;
 
             &:hover {
-                color: $button-hover-bg; /* Change color on hover */
+                color: $button-hover-bg;
             }
         }
     }
