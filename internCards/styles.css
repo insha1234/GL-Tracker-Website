@@ -207,6 +207,14 @@ main {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  border: 2px solid #000000; /* Thicker border */
+  border-radius: 30px; /* Rounded corners */
+}
+
+.table-interns:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 .table-interns th, .table-interns td {
@@ -215,13 +223,30 @@ main {
 }
 
 .table-interns th {
-  background-color: #f4f4f4;
+  background-color: #414042; /* Header background color */
   text-align: left;
+  color: #fff; /* White text color for better contrast */
+  font-weight: bold;
+  padding: 12px;
+  border-bottom: 2px solid #ddd;
 }
 
 .table-interns td {
   vertical-align: top;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
 }
 
+/* Row hover effect */
+.table-interns tbody tr:hover {
+  background-color: #f37037; /* Hover color */
+}
 
+/* Alternate row coloring */
+.table-interns tbody tr:nth-child(odd) {
+  background-color: #fefefe;
+}
 
+.table-interns tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
