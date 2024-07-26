@@ -277,3 +277,26 @@ main{
 }   
 
 
+#interns-container {
+    &.grid-view {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &.list-view {
+        display: block;
+    }
+
+    .intern-card {
+        &.grid-view {
+            flex: 1 1 23%; // 4 cards per row
+            margin: 10px;
+        }
+
+        &.list-view {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+}
+
