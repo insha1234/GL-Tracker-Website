@@ -10,7 +10,8 @@
     "linkedin": "https://www.linkedin.com/in/muskan-arya-2210arya/",
     "github": "https://github.com/MuskanArya22",
     "website": "https://muskanarya22.github.io/Muskans-Portfolio/",
-    "instagram": "https://www.instagram.com/muskan_arya_2210/"
+    "twitter": "https://x.com/MuskanA82333319",
+    "company": "https://company.com/muskan-arya"
   },
   {
     "_id": {
@@ -23,7 +24,8 @@
     "linkedin": "https://www.linkedin.com/in/insha-khan-765023276/",
     "github": "https://github.com/insha1234",
     "website": "https://inshakhan.com",
-    "instagram": "https://www.instagram.com/_.inssshhh._/"
+    "twitter": "https://twitter.com/_.inssshhh._",
+    "company": "https://company.com/insha-khan"
   },
   {
     "_id": {
@@ -36,7 +38,8 @@
     "linkedin": "https://www.linkedin.com/in/aashi-chaudhary-97952a246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     "github": "https://github.com/aaxhi",
     "website": "https://aashichaudhary.com",
-    "instagram": "https://www.instagram.com/aaxhii_/?igsh=MzE1YWdxMmE5cWYx"
+    "twitter": "https://twitter.com/aaxhii_",
+    "company": "https://company.com/aashi-chaudhary"
   },
   {
     "_id": {
@@ -49,7 +52,8 @@
     "linkedin": "https://linkedin.com/in/johndoe",
     "github": "https://github.com/johndoe",
     "website": "https://johndoe.com",
-    "instagram": "https://instagram.com/johndoe"
+    "twitter": "https://twitter.com/johndoe",
+    "company": "https://company.com/john-doe"
   },
   {
     "_id": {
@@ -62,7 +66,8 @@
     "linkedin": "https://linkedin.com/in/janesmith",
     "github": "https://github.com/janesmith",
     "website": "https://janesmith.com",
-    "instagram": "https://instagram.com/janesmith"
+    "twitter": "https://twitter.com/janesmith",
+    "company": "https://company.com/jane-smith"
   },
   {
     "_id": {
@@ -75,7 +80,8 @@
     "linkedin": "https://linkedin.com/in/emilydavis",
     "github": "https://github.com/emilydavis",
     "website": "https://emilydavis.com",
-    "instagram": "https://instagram.com/emilydavis"
+    "twitter": "https://twitter.com/emilydavis",
+    "company": "https://company.com/emily-davis"
   },
   {
     "_id": {
@@ -88,7 +94,8 @@
     "linkedin": "https://linkedin.com/in/michaelbrown",
     "github": "https://github.com/michaelbrown",
     "website": "https://michaelbrown.com",
-    "instagram": "https://instagram.com/michaelbrown"
+    "twitter": "https://twitter.com/michaelbrown",
+    "company": "https://company.com/michael-brown"
   },
   {
     "_id": {
@@ -101,7 +108,8 @@
     "linkedin": "https://linkedin.com/in/sophiawilson",
     "github": "https://github.com/sophiawilson",
     "website": "https://sophiawilson.com",
-    "instagram": "https://instagram.com/sophiawilson"
+    "twitter": "https://twitter.com/sophiawilson",
+    "company": "https://company.com/sophia-wilson"
   },
   {
     "_id": {
@@ -114,7 +122,8 @@
     "linkedin": "https://linkedin.com/in/liamjohnson",
     "github": "https://github.com/liamjohnson",
     "website": "https://liamjohnson.com",
-    "instagram": "https://instagram.com/liamjohnson"
+    "twitter": "https://twitter.com/liamjohnson",
+    "company": "https://company.com/liam-johnson"
   },
   {
     "_id": {
@@ -127,7 +136,8 @@
     "linkedin": "https://linkedin.com/in/oliviasmith",
     "github": "https://github.com/oliviasmith",
     "website": "https://oliviasmith.com",
-    "instagram": "https://instagram.com/oliviasmith"
+    "twitter": "https://twitter.com/oliviasmith",
+    "company": "https://company.com/olivia-smith"
   },
   {
     "_id": {
@@ -140,7 +150,8 @@
     "linkedin": "https://linkedin.com/in/ethanmiller",
     "github": "https://github.com/ethanmiller",
     "website": "https://ethanmiller.com",
-    "instagram": "https://instagram.com/ethanmiller"
+    "twitter": "https://twitter.com/ethanmiller",
+    "company": "https://company.com/ethan-miller"
   },
   {
     "_id": {
@@ -153,7 +164,8 @@
     "linkedin": "https://linkedin.com/in/emmadavis",
     "github": "https://github.com/emmadavis",
     "website": "https://emmadavis.com",
-    "instagram": "https://instagram.com/emmadavis"
+    "twitter": "https://twitter.com/emmadavis",
+    "company": "https://company.com/emma-davis"
   },
   {
     "_id": {
@@ -166,7 +178,8 @@
     "linkedin": "https://linkedin.com/in/lucasturner",
     "github": "https://github.com/lucasturner",
     "website": "https://lucasturner.com",
-    "instagram": "https://instagram.com/lucasturner"
+    "twitter": "https://twitter.com/lucasturner",
+    "company": "https://company.com/lucas-turner"
   },
   {
     "_id": {
@@ -179,6 +192,35 @@
     "linkedin": "https://linkedin.com/in/chloemartinez",
     "github": "https://github.com/chloemartinez",
     "website": "https://chloemartinez.com",
-    "instagram": "https://instagram.com/chloemartinez"
+    "twitter": "https://twitter.com/chloemartinez",
+    "company": "https://company.com/chloe-martinez"
+  },
+  {
+    "_id": {
+      "$oid": "66a28d22105ab56280ceb091"
+    },
+    "name": "James Bond",
+    "role": "Full-Stack Developer",
+    "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
+    "photo": "https://pbs.twimg.com/media/GQTOXl2WUAAalUh.jpg",
+    "linkedin": "https://linkedin.com/in/jamesbond",
+    "github": "https://github.com/jamesbond",
+    "website": "https://jamesbond.com",
+    "twitter": "https://twitter.com/jamesbond",
+    "company": "https://company.com/james-bond"
+  },
+  {
+    "_id": {
+      "$oid": "66a268d58a5bccfef4437e9f"
+    },
+    "name": "Hero Fiennes Tiffin",
+    "role": "UI/UX Developer",
+    "description": "An imaginative UI/UX Developer known for blending creativity with technology. Skilled in designing intuitive and aesthetically pleasing user interfaces that enhance overall.",
+    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAttVnOqj2pwhbt5pHjZUzYW0GhtBRI_LBRw&s",
+    "linkedin": "https://linkedin.com/in/herofiennestiffin",
+    "github": "https://github.com/herofiennestiffin",
+    "website": "https://herofiennestiffin.com",
+    "twitter": "https://twitter.com/herofiennestiffin",
+    "company": "https://company.com/hero-fiennes-tiffin"
   }
 ]

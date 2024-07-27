@@ -1,49 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Our Interns</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
-<body>
-    <header class="header">
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="logo">
-                <h1>GlobalLogic</h1>
-                <p>GLTracker</p>
-            </div>
-            <nav class="nav">
-                <ul class="nav-list d-flex">
-                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Insights</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
-
-                </ul>
-            </nav>
-            <button class="btn btn-login">Login</button>
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="lib/ag-grid/ag-grid-community.min.js" />
+    <link rel="stylesheet" href="lib/ag-grid/ag-theme-alpine.css" />
+  </head>
+  <body>
+    <header class="header sticky-top">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <h1>GlobalLogic</h1>
+          <p>GLTracker</p>
         </div>
+        <nav class="nav">
+          <ul class="nav-list d-flex">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Insights</a></li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="Login.html" class="btn btn-login">Login</a>
+      </div>
     </header>
 
-    <main class="container">
-        <h2 class="text-center">Interns</h2>
-        <p class="text-center">Meet our fresh talent driving innovations</p>
-        <div class="row" id="interns-container">
-            <!-- 4 Intern cards will be dynamically added here -->
-        </div>
-        <div class="text-center mt-4">
-            <a href="all-interns.html" class="btn btn-see-more">See More</a>
-        </div>
-    </main>
+   <!-- Interns Section -->
+<main id="interns-section" class="container">
+    <br><br>
+    <h2 class="text-center">Interns</h2>
+    <p class="text-center">Meet our fresh talent driving innovations</p>
+    
+    <div class="row" id="interns-container-grid" class="grid-view">
+        <!-- Intern cards will be dynamically added here -->
+    </div>
+    <div class="table-responsive" id="interns-container-list" class="list-view">
+        <!-- Intern data will be dynamically added here in table format -->
+    </div>
+    <br><br>
+    <div class="text-center mt-4">
+        <button id="toggle-view" class="btn btn-see-more">List View</button>
+        <a href="all-interns.html" class="btn btn-see-more">See More</a>
+    </div>
+</main>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="footer-title">GlobalLogic</h4>
+            <p class="footer-subtitle">A Hitachi Group Company</p>
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-3">
+                <ul class="list-unstyled">
+                  <li><a href="#" class="footer-link">Services</a></li>
+                  <li><a href="#" class="footer-link">Work</a></li>
+                  <li><a href="#" class="footer-link">Insights</a></li>
+                  <li><a href="#" class="footer-link">Careers</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <ul class="list-unstyled">
+                  <li><a href="#" class="footer-link">About</a></li>
+                  <li><a href="#" class="footer-link">Privacy</a></li>
+                  <li>
+                    <a href="#" class="footer-link">Compliance & Disclosures</a>
+                  </li>
+                  <li><a href="#" class="footer-link">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 text-center">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a href="#" class="footer-link"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="footer-link"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="footer-link"
+                      ><i class="fab fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="footer-link"
+                      ><i class="fab fa-youtube"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#" class="footer-link"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </li>
+                </ul>
+                <p class="footer-text">
+                  2024 Copyright GlobalLogic Inc. All rights reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="lib/Popper.js"></script>
+    <script src="lib/ag-grid/ag-grid-community.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script src="lib/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
