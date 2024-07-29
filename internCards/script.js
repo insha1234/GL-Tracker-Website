@@ -106,3 +106,36 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+
+  // Show/hide the scroll-up button based on scroll position
+  window.addEventListener('scroll', function() {
+    const scrollUpBtn = document.getElementById('scrollUpBtn');
+    if (window.scrollY > 200) {
+      scrollUpBtn.classList.add('show');
+    } else {
+      scrollUpBtn.classList.remove('show');
+    }
+  });
+
+  // Scroll to the top when the button is clicked
+  document.getElementById('scrollUpBtn').addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  function showForm(formId) {
+    document.querySelectorAll('.contact-form').forEach(form => {
+      form.classList.remove('active-form');
+    });
+    document.getElementById(formId).classList.add('active-form');
+    
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.classList.remove('active');
+    });
+    if (formId === 'servicesForm') {
+      document.querySelector('.tab-btn:nth-child(1)').classList.add('active');
+    } else {
+      document.querySelector('.tab-btn:nth-child(2)').classList.add('active');
+    }
+  }
+  

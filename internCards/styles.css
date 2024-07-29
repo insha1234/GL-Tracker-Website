@@ -199,6 +199,30 @@ main {
   font-size: 0.875rem;
 }
 
+.footer .scroll-up-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f37037;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.footer .scroll-up-btn.show {
+  opacity: 1;
+}
+
 #interns-container-list {
   display: none; /* Hide the list view by default */
 }
@@ -250,3 +274,223 @@ main {
 .table-interns tbody tr:nth-child(even) {
   background-color: #f9f9f9;
 }
+.contact-section {
+  background-color: white;
+  padding: 50px 0;
+}
+.contact-section .contact-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.contact-section .contact-tabs .tab-btn {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.contact-section .contact-tabs .tab-btn:hover,
+.contact-section .contact-tabs .tab-btn.active {
+  background-color: #f37037; /* Replace with your $button-hover-bg variable */
+  color: white;
+}
+.contact-section .contact-form {
+  display: none;
+  width: 100%;
+  background-color: #f7f7f7;
+  padding: 30px;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#firstName {
+  display: block;
+    box-sizing: border-box;
+    width:200%;
+    height: 35px;
+    padding: .625rem;
+    border: 1px solid #d2cdcd;
+    margin: 0 0 16px;
+    color: #757373;
+    font-size: 14px;
+    border-radius: 0;
+    transition: box-shadow .5s, border-color .25s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+
+#lastName {
+  display: block;
+    box-sizing: border-box;
+    width:200%;
+    height: 35px;
+    padding: .625rem;
+    border: 1px solid #d2cdcd;
+    margin: 0 0 16px;
+    color: #757373;
+    font-size: 14px;
+    border-radius: 0;
+    transition: box-shadow .5s, border-color .25s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+
+#email {
+  display: block;
+    box-sizing: border-box;
+    width:200%;
+    height: 35px;
+    padding: .625rem;
+    border: 1px solid #d2cdcd;
+    margin: 0 0 16px;
+    color: #757373;
+    font-size: 14px;
+    border-radius: 0;
+    transition: box-shadow .5s, border-color .25s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+#hearAbout {
+  background-repeat: no-repeat;
+    background-position: 97% center;
+    background-size: 18px;
+    background-color: #fff;
+    width: 200% ;
+    box-shadow: none;
+    display: block;
+    box-sizing: border-box;
+    height: 35px;
+    padding: 0 .625rem;
+    border: 1px solid #d2cdcd;
+    margin: 0 0 1.25rem;
+    font-size: .875rem;
+    border-radius: 0;
+    transition: box-shadow .5s, border-color .25s ease-in-out;
+   
+    color: #757373 !important;
+} 
+
+#message {
+  display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    padding: .625rem;
+    border: 1px solid #d2cdcd;
+    margin: 0 0 16px;
+    color: #757373;
+    font-size: 14px;
+    border-radius: 0;
+    transition: box-shadow .5s, border-color .25s ease-in-out;
+    
+    position: relative;
+    z-index: 1;
+}
+
+#queryName {
+  display: block;
+    box-sizing: border-box;
+    width:100%;
+    height: 35px;
+    padding: .625rem;
+    border: 1px solid #d2cdcd;
+    margin: 0 0 16px;
+    color: #757373;
+    font-size: 14px;
+    border-radius: 0;
+    transition: box-shadow .5s, border-color .25s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+#queryEmail {
+  display: block;
+    box-sizing: border-box;
+    width:100%;
+    height: 35px;
+    padding: .625rem;
+    border: 1px solid #d2cdcd;
+    margin: 0 0 16px;
+    color: #757373;
+    font-size: 14px;
+    border-radius: 0;
+    transition: box-shadow .5s, border-color .25s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+
+#queryMessage {
+  display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    padding: .625rem;
+    border: 1px solid #d2cdcd;
+    margin: 0 0 16px;
+    color: #757373;
+    font-size: 14px;
+    border-radius: 0;
+    transition: box-shadow .5s, border-color .25s ease-in-out;
+    
+    position: relative;
+    z-index: 1;
+}
+
+.contact-section .contact-form.active-form {
+  display: block;
+  
+}
+
+
+.contact-section .contact-form .form-control {
+ border-radius: 5px;
+}
+
+/* CSS to make all links within the specific paragraphs orange */
+p a {
+  color: #f37037; /* Sets the color of the links to orange */
+}
+.contact-section .contact-form .btn-submit {
+  background-color: #414042; /* Replace with your $header-bg variable */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px; /* Replace with your $button-radius variable */
+}
+.contact-section .contact-form .btn-submit:hover {
+  background-color: #f37037; /* Replace with your $button-hover-bg variable */
+}
+
+.contact-section .contact-info {
+  background-color: #e6e7e8;
+  padding: 30px;
+  /* border-radius: 10px; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #f60;
+}
+.contact-section .contact-info h3 {
+  margin-bottom: 20px;
+}
+.contact-section .contact-info p {
+  margin-bottom: 10px;
+}
+.contact-section .contact-info .contact-link {
+  color: #f37037;
+  text-decoration: none;
+}
+.contact-section .contact-info .contact-link:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
