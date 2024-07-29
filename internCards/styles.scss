@@ -274,6 +274,31 @@ main{
         .footer-text {
             font-size: 0.875rem;
         }
+
+        .scroll-up-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: $scroll-up-btn-bg-color;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        
+            &.show {
+              opacity: 1;
+            }
+          }
+        }
         
         #interns-container {
             &.grid-view {
@@ -349,5 +374,60 @@ main{
         .table-interns tbody tr:nth-child(even) {
             background-color: #f9f9f9;
         }
+    
+
+    .contact-section {
+        background-color: white;
+        padding: 50px 0;
+        .contact-tabs {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 30px;
+          .tab-btn {
+            background-color: #f1f1f1;
+            border: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            &:hover, &.active {
+              background-color: $button-hover-bg;
+              color: white;
+            }
+          }
+        }
+
+        // Assuming the form is within a section or has a specific class, replace `.form-section` with the actual selector
+.form-section {
+    .form-group {
+      #message {
+        width: 75%; // Decrease width to 75% of its container
+        height: 150px; // Increase height
+        margin-left: auto; // Center the textarea horizontally
+        margin-right: auto;
+        display: block; // Ensure display is block to enable margin auto to work
+      }
     }
+  }
+
+      
+        .contact-form {
+          background-color: white;
+          padding: 30px;
+         
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          
+          }
+          .btn-submit {
+            background-color: $header-bg;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: $button-radius;
+            &:hover {
+              background-color: $button-hover-bg;
+            }
+          }
+        }
+      
+      
     
