@@ -164,12 +164,14 @@ main {
 } */
 
 .project-card .card-back {
-  background: #A9A9A9;
+  background: #414042;
   color: #fff;
   transform: rotateY(180deg);
   box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.1);
   
 }
+
+
 
 .project-card:hover .card-front {
   transform: rotateY(180deg);
