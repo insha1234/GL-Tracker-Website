@@ -1,7 +1,7 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Initialize carousel
-    $('.carousel').carousel({
-        interval: 2500 // 2.5 seconds
+$(document).ready(function () {
+    // Initialize the carousel
+    $('#hero-carousel').carousel({
+      interval: 3000 // Set interval to 3000ms (3 seconds)
     });
 
     // Fetch intern data from backend

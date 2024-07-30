@@ -74,7 +74,46 @@ main {
   color: white;
 }
 
+/* Hero Section */
+.hero-section {
+  position: relative;
+  height: calc(100vh - 60px); /* Adjusted to fit below header */
+  margin-top: 60px; /* Adjusted for header height */
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin: 0;
+}
+
+
 /* Intern Card Styles */
+h2.text-center {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 48px ;
+
+}
+
 .intern-card {
   position: relative;
   background-color: white;
