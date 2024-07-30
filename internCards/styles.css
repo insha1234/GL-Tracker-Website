@@ -465,11 +465,13 @@ h2.text-center {
   background-color: white;
   padding: 50px 0;
 }
+
 .contact-section .contact-tabs {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
 }
+
 .contact-section .contact-tabs .tab-btn {
   background-color: #f1f1f1;
   border: none;
@@ -483,104 +485,124 @@ h2.text-center {
   background-color: #f37037; /* Replace with your $button-hover-bg variable */
   color: white;
 }
+
 .contact-section .contact-form {
   display: none;
   width: 100%;
+  max-width: 800px; /* Adjust this value based on your design requirements */
   background-color: #f7f7f7;
   padding: 30px;
-  
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 0 auto; /* Center the form horizontally */
 }
 
-#firstName {
+.contact-section .contact-form .form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+#subscribe {
+width: 5%;
+}
+.contact-section .contact-form .form-row .form-group {
+  flex: 1;
+  min-width: 200px;
+}
+.contact-section .contact-form select,
+.contact-section .contact-form input,
+.contact-section .contact-form textarea {
   display: block;
-    box-sizing: border-box;
-    width:200%;
-    height: 35px;
-    padding: .625rem;
-    border: 1px solid #d2cdcd;
-    margin: 0 0 16px;
-    color: #757373;
-    font-size: 14px;
-    border-radius: 0;
-    transition: box-shadow .5s, border-color .25s ease-in-out;
-    position: relative;
-    z-index: 1;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 0.625rem;
+  border: 1px solid #d2cdcd;
+  margin: 0 0 0;
+  color: #757373;
+  font-size: 14px;
+  border-radius: 0;
+  transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+  position: relative;
+  z-index: 1;
 }
 
-#lastName {
-  display: block;
-    box-sizing: border-box;
-    width:200%;
-    height: 35px;
-    padding: .625rem;
-    border: 1px solid #d2cdcd;
-    margin: 0 0 16px;
-    color: #757373;
-    font-size: 14px;
-    border-radius: 0;
-    transition: box-shadow .5s, border-color .25s ease-in-out;
-    position: relative;
-    z-index: 1;
-}
-
-#email {
-  display: block;
-    box-sizing: border-box;
-    width:200%;
-    height: 35px;
-    padding: .625rem;
-    border: 1px solid #d2cdcd;
-    margin: 0 0 16px;
-    color: #757373;
-    font-size: 14px;
-    border-radius: 0;
-    transition: box-shadow .5s, border-color .25s ease-in-out;
-    position: relative;
-    z-index: 1;
-}
-
-
-
-
-
-
-#hearAbout {
+/*.contact-section .contact-form select {
   background-repeat: no-repeat;
-    background-position: 97% center;
-    background-size: 18px;
-    background-color: #fff;
-    width: 200% ;
-    box-shadow: none;
-    display: block;
-    box-sizing: border-box;
-    height: 35px;
-    padding: 0 .625rem;
-    border: 1px solid #d2cdcd;
-    margin: 0 0 1.25rem;
-    font-size: .875rem;
-    border-radius: 0;
-    transition: box-shadow .5s, border-color .25s ease-in-out;
-   
-    color: #757373 !important;
-} 
-
-#message {
-  display: block;
-    box-sizing: border-box;
-    width: 100%;
-    height: 150px;
-    padding: .625rem;
-    border: 1px solid #d2cdcd;
-    margin: 0 0 16px;
-    color: #757373;
-    font-size: 14px;
-    border-radius: 0;
-    transition: box-shadow .5s, border-color .25s ease-in-out;
-    
-    position: relative;
-    z-index: 1;
+  background-position: 97% center;
+  background-size: 18px;
+  background-color: #fff;
+  height: 35px;
+  padding: 0 0.625rem;
+  margin: 0 0 1.25rem;
+  font-size: 0.875rem;
+  color: #757373 !important;
+  width: 100%;
 }
+*/
+.contact-section .contact-form textarea {
+  height: 150px;
+  resize: vertical; /* Allows the user to resize the textarea vertically */
+}
+
+@media (max-width: 768px) {
+  .contact-section .contact-tabs {
+    flex-direction: column;
+  }
+  
+  .contact-section .contact-tabs .tab-btn {
+    margin: 5px 0;
+  }
+
+  .contact-section .contact-form {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .contact-section .contact-form .form-row {
+    flex-direction: column;
+  }
+
+  .contact-section .contact-form textarea {
+    height: 120px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-section .contact-tabs .tab-btn {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+
+  .contact-section .contact-form {
+    padding: 15px;
+  }
+
+  .contact-section .contact-form input,
+  .contact-section .contact-form select,
+  .contact-section .contact-form textarea {
+    font-size: 12px;
+  }
+
+  .contact-section .contact-form textarea {
+    height: 100px;
+  }
+}
+.contact-section .form-check {
+  display: flex;
+  align-items: center;
+  margin: 16px 0;
+}
+
+.contact-section .form-check input[type="checkbox"] {
+  margin-right: 10px; /* Space between checkbox and label */
+}
+
+.contact-section .form-check .form-check-label {
+  font-size: 14px;
+  color: #757373;
+}
+
 
 #queryName {
   display: block;
@@ -596,6 +618,7 @@ h2.text-center {
     transition: box-shadow .5s, border-color .25s ease-in-out;
     position: relative;
     z-index: 1;
+    border-radius: 5px;
 }
 #queryEmail {
   display: block;
@@ -611,6 +634,7 @@ h2.text-center {
     transition: box-shadow .5s, border-color .25s ease-in-out;
     position: relative;
     z-index: 1;
+    border-radius: 5px;
 }
 
 #queryMessage {
@@ -628,6 +652,7 @@ h2.text-center {
     
     position: relative;
     z-index: 1;
+    border-radius: 5px;
 }
 
 .contact-section .contact-form.active-form {
