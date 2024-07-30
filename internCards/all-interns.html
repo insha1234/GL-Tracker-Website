@@ -23,7 +23,6 @@
                     <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Insights</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
-
                 </ul>
             </nav>
             <a href="Login.html" class="btn btn-login">Login</a>
@@ -31,14 +30,61 @@
     </header>
 
     <main class="container">
-        <br>
-        <br>
         <h2 class="text-center">Interns</h2>
         <p class="text-center">Meet our complete team of fresh talent</p>
-        <div class="row" id="all-interns-container">
+        <div class="row" id="all-interns-container" style="display: flex;">
             <!-- All intern cards will be dynamically added here -->
         </div>
+        <div class="table-responsive" id="interns-container-list" style="display: none;">
+            <!-- Intern data will be dynamically added here in table format -->
+        </div>
+        <br><br>
+        <div class="text-center mt-4">
+            <button id="toggle-view" class="btn btn-see-more">List View</button>
+        </div>
     </main>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="footer-title">GlobalLogic</h4>
+                    <p class="footer-subtitle">A Hitachi Group Company</p>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="footer-link">Services</a></li>
+                                <li><a href="#" class="footer-link">Work</a></li>
+                                <li><a href="#" class="footer-link">Insights</a></li>
+                                <li><a href="#" class="footer-link">Careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="footer-link">About</a></li>
+                                <li><a href="#" class="footer-link">Privacy</a></li>
+                                <li><a href="#" class="footer-link">Compliance & Disclosures</a></li>
+                                <li><a href="#" class="footer-link">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-linkedin"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-youtube"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                            <p class="footer-text">2024 Copyright GlobalLogic Inc. All rights reserved.</p>
+                            <button id="scrollUpBtn" class="scroll-up-btn"><i class="fas fa-arrow-up"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="lib/jquery-3.7.1.min.js"></script>
     <script src="lib/Popper.js"></script>
