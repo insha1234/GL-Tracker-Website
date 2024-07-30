@@ -105,11 +105,26 @@ main {
   margin: 0;
 }
 
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-caption {
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
 
 /* Intern Card Styles */
 h2.text-center {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 48px ;
 
 }
