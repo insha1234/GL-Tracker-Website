@@ -35,6 +35,14 @@ main {
   margin-bottom: 50px;
 }
 
+.nav-link.active {
+  color: #f37037;
+  font-weight: bold;
+}
+
+
+
+
 /* Header Styles */
 .header {
   background-color: #414042;
