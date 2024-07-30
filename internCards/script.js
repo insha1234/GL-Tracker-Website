@@ -1,7 +1,7 @@
-$(document).ready(function () {
+document.addEventListener('DOMContentLoaded', function() {
     // Initialize the carousel
     $('#hero-carousel').carousel({
-      interval: 3000 // Set interval to 3000ms (3 seconds)
+      interval: 1000 // Change slide every 5 seconds
     });
 
     // Fetch intern data from backend
