@@ -267,6 +267,11 @@ h2.text-center {
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px; /* Set a fixed width */
+  height: 400px; /* Set a fixed height */
 }
 
 .intern-card:hover {
@@ -278,9 +283,11 @@ h2.text-center {
   height: 200px;
   background-size: cover;
   background-position: center;
+  border-radius: 10px;
 }
 
 .intern-card .intern-info {
+  flex: 1;
   margin-top: 10px;
 }
 
@@ -328,7 +335,8 @@ h2.text-center {
 }
 
 .grid-view .intern-card {
-  flex: 1 1 22%; /* 4 cards per row */
+  flex: 1 1 calc(25% - 10px); /* Adjust for 4 cards per row with spacing */
+  box-sizing: border-box;
   margin: 0;
 }
 
