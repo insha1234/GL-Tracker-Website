@@ -8,8 +8,9 @@ document.addEventListener("DOMContentLoaded", function() {
     fetch('http://localhost:3000/api/interns')
         .then(response => response.json())
         .then(data => {
-            renderInterns(data.slice(0, 4)); // Only render the first 4 interns
-            renderInternsList(data); // Render all interns in list view
+            const limitedData = data.slice(0, 4); // Only take the first 4 interns
+            renderInterns(limitedData);
+            renderInternsList(limitedData);
         })
         .catch(error => console.error('Error fetching interns:', error));
 
@@ -107,35 +108,33 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-
-  // Show/hide the scroll-up button based on scroll position
-  window.addEventListener('scroll', function() {
+// Show/hide the scroll-up button based on scroll position
+window.addEventListener('scroll', function() {
     const scrollUpBtn = document.getElementById('scrollUpBtn');
     if (window.scrollY > 200) {
-      scrollUpBtn.classList.add('show');
+        scrollUpBtn.classList.add('show');
     } else {
-      scrollUpBtn.classList.remove('show');
+        scrollUpBtn.classList.remove('show');
     }
-  });
+});
 
-  // Scroll to the top when the button is clicked
-  document.getElementById('scrollUpBtn').addEventListener('click', function() {
+// Scroll to the top when the button is clicked
+document.getElementById('scrollUpBtn').addEventListener('click', function() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
+});
 
-  function showForm(formId) {
+function showForm(formId) {
     document.querySelectorAll('.contact-form').forEach(form => {
-      form.classList.remove('active-form');
+        form.classList.remove('active-form');
     });
     document.getElementById(formId).classList.add('active-form');
     
     document.querySelectorAll('.tab-btn').forEach(btn => {
-      btn.classList.remove('active');
+        btn.classList.remove('active');
     });
     if (formId === 'servicesForm') {
-      document.querySelector('.tab-btn:nth-child(1)').classList.add('active');
+        document.querySelector('.tab-btn:nth-child(1)').classList.add('active');
     } else {
-      document.querySelector('.tab-btn:nth-child(2)').classList.add('active');
+        document.querySelector('.tab-btn:nth-child(2)').classList.add('active');
     }
-  }
-  
+}

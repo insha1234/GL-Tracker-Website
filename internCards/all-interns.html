@@ -23,7 +23,6 @@
                     <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Insights</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
-
                 </ul>
             </nav>
             <a href="Login.html" class="btn btn-login">Login</a>
@@ -31,14 +30,143 @@
     </header>
 
     <main class="container">
-        <br>
-        <br>
+        <br><br>
         <h2 class="text-center">Interns</h2>
         <p class="text-center">Meet our complete team of fresh talent</p>
-        <div class="row" id="all-interns-container">
+        <div class="row" id="all-interns-container" style="display: flex;">
             <!-- All intern cards will be dynamically added here -->
         </div>
+        <div class="table-responsive" id="interns-container-list" style="display: none;">
+            <!-- Intern data will be dynamically added here in table format -->
+        </div>
+        <br><br>
+        <div class="text-center mt-4">
+            <button id="toggle-view" class="btn btn-see-more">List View</button>
+        </div>
     </main>
+
+    <!-- Contact Form Section -->
+    <section id="contact-section" class="contact-section">
+        <div class="container">
+            <h2 class="text-center">Get in Touch</h2>
+            <p class="text-center">Please fill out the form below. You can also contact us via email/phone, and our team will gladly handle your request!</p>
+            <div class="d-flex justify-content-center">
+                <div class="contact-tabs">
+                    <button class="tab-btn active" onclick="showForm('servicesForm')">Request for Services</button>
+                    <button class="tab-btn" onclick="showForm('queriesForm')">Other Queries</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <form id="servicesForm" class="contact-form active-form">
+                        <h3 class="text-center">Let’s Work Together</h3>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="firstName" placeholder="First Name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <input type="email" class="form-control" id="email" placeholder="Business Email Address" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <select id="hearAbout" class="form-control">
+                                    <option selected>How did you hear about us?</option>
+                                    <option value="Search Engine">Search Engine</option>
+                                    <option value="Social Media">Social Media</option>
+                                    <option value="Referral">Referral</option>
+                                    <option value="Advertisement">Advertisement</option>
+                                    <option value="Events">Events</option>
+                                    <option value="Others">Others</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" rows="5" required placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="subscribe">
+                            <label class="form-check-label" for="subscribe">Send me occasional information about GlobalLogic, a Hitachi Group Company news and events to the provided email address.</label>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-submit">Submit</button>
+                        </div>
+                    </form>
+                    <form id="queriesForm" class="contact-form">
+                        <h3 class="text-center">Other Queries</h3>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="queryName" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="queryEmail" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="queryMessage" rows="5" required placeholder="Your Query"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p><strong>Corporate Headquarters</strong></p>
+                        <p>2535 Augustine Drive, Suite 500<br>Santa Clara, CA 95054, USA</p>
+                        <p><a href="https://maps.app.goo.gl/XAMDeoW6aAq98paT6" target="_blank"> <!-- View Map --> View Map</a></p>
+                        <p><strong>Phone:</strong> +1-408-273-8900</p>
+                        <p><strong>Email:</strong> <a href="mailto:info@globallogic.com">info@globallogic.com</a>, <br>
+                        <a href="mailto:sales@globallogic.com">sales@globallogic.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="footer-title">GlobalLogic</h4>
+                    <p class="footer-subtitle">A Hitachi Group Company</p>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="footer-link">Services</a></li>
+                                <li><a href="#" class="footer-link">Work</a></li>
+                                <li><a href="#" class="footer-link">Insights</a></li>
+                                <li><a href="#" class="footer-link">Careers</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="footer-link">About</a></li>
+                                <li><a href="#" class="footer-link">Privacy</a></li>
+                                <li><a href="#" class="footer-link">Compliance & Disclosures</a></li>
+                                <li><a href="#" class="footer-link">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <ul class="list-inline">
+                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-linkedin"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-youtube"></i></a></li>
+                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                            <p class="footer-text">2024 Copyright GlobalLogic Inc. All rights reserved.</p>
+                            <button id="scrollUpBtn" class="scroll-up-btn"><i class="fas fa-arrow-up"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="lib/jquery-3.7.1.min.js"></script>
     <script src="lib/Popper.js"></script>
