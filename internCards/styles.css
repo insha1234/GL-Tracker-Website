@@ -158,13 +158,17 @@ main {
 }
 
 .project-card .card-front {
-  background: #fff;
+  background: #A9A9A9;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  
 }
 
 .project-card .card-back {
-  background: #007bff;
+  background: #f37037;
   color: #fff;
   transform: rotateY(180deg);
+  box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.1);
+  
 }
 
 .project-card:hover .card-front {
@@ -191,7 +195,7 @@ main {
 /* Intern Card Styles */
 h2.text-center {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   font-size: 48px ;
 
 }
