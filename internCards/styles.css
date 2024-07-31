@@ -387,6 +387,35 @@ h2.text-center {
   color: white;
 }
 
+
+/* About Us Section */
+#about-us {
+  background-color: white;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.about-us-section {
+  padding: 0 20px;
+}
+
+.about-us-text {
+  padding: 0 20px;
+}
+
+.btn-primary {
+  background-color: #414042; /* Change the button color to orange */
+  border-color: #414042; /* Change the border color to match */
+  border-radius: 17px; /* Increase border-radius for a more rounded look */
+  color: white; /* Optional: Adjust text color if needed */
+}
+
+.btn-primary:hover {
+  background-color: #f37037; /* Change background to orange on hover */
+  border-color: #f37037; /* Optional: Change border color to match on hover */
+}
+
+
 /* Footer Styles */
 .footer {
   background-color: #414042;
