@@ -270,8 +270,11 @@ h2.text-center {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 250px; /* Set a fixed width */
+  width: 100%; /* Set a fixed width */
+  max-width: 250px;
   height: 400px; /* Set a fixed height */
+  margin: 10px;
+  
 }
 
 .intern-card:hover {
@@ -334,14 +337,32 @@ h2.text-center {
   gap: 10px;
 }
 
-.grid-view .intern-card {
-  flex: 1 1 calc(25% - 10px); /* Adjust for 4 cards per row with spacing */
-  box-sizing: border-box;
-  margin: 0;
+/* Media Queries for Responsive Design */
+@media (min-width: 1200px) {
+  .grid-view .intern-card {
+    flex: 1 1 calc(25% - 10px); /* 4 cards per row */
+  }
 }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .grid-view .intern-card {
+    flex: 1 1 calc(50% - 20px); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 767px) {
+  .grid-view .intern-card {
+    flex: 0 1 100%; /* 1 card per row */
+  }
+}
+
+
+
+
 
 .list-view .intern-card {
   width: 100%;
+  margin-bottom: none;
   margin-bottom: 20px;
   
 }
