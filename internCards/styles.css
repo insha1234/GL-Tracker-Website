@@ -227,6 +227,10 @@ main {
   
 }
 
+.custom-color {
+  color: #ddd;
+  margin-top: 10px;
+}
 
 
 .project-card:hover .card-front {
@@ -731,7 +735,6 @@ p a {
 }
 
 
-
-
+ 
 
 
