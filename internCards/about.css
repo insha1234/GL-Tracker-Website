@@ -98,3 +98,29 @@ body {
     margin-left: 0; /* Decrease left margin */
    
 }
+
+.content-section h3 {
+  margin-bottom: 20px;
+}
+
+.content-section p {
+  margin-bottom: 20px;
+}
+
+.blockquote {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.blockquote-footer {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+
+.card-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
