@@ -89,6 +89,7 @@ body {
     object-fit: cover; /* Ensure the image covers the area without stretching */
     margin-right: 0; /* Decrease right margin */
     border-radius: 15px;
+    border-bottom: 3px solid #f60;
 }
     
 .col-md-3.col-7 img{
@@ -98,6 +99,7 @@ body {
     margin-top: 30px;
     margin-left: 0; /* Decrease left margin */
     border-radius: 15px;
+    border-bottom: 3px solid #f60;
    
 }
 
