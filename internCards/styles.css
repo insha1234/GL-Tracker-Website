@@ -252,6 +252,7 @@ main {
   background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0 15px 5px rgba(243, 112, 55, 0.5); /* Orange shadow with opacity */
 }
 
 .modal-content {
