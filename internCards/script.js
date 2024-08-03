@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
             projects.forEach(project => {
                 const projectCard = `
                     <div class="col-md-4">
-                        <div class="project-card">
+                        <div class="project-card" onclick="openModal('${project.title}', '${project.imageUrl}', '${project.technologies.join(', ')}', 'Interns Details', 'Mentor Name', 'Time Taken', 'Knowledge Gained')">
                             <div class="card-front">
                                 <img src="${project.imageUrl}" class="img-fluid" alt="${project.title}" />
                             </div>
@@ -138,9 +138,31 @@ document.addEventListener('DOMContentLoaded', function() {
                 `;
                 projectsContainer.innerHTML += projectCard;
             });
+        }
     
-    }
-
+        // Function to open the modal
+        window.openModal = function(title, imageUrl, technologies, interns, mentor, time, knowledge) {
+            document.getElementById('modal-heading').textContent = title;
+            document.getElementById('modal-image').src = imageUrl;
+            document.getElementById('modal-technologies').textContent = technologies;
+            document.getElementById('modal-interns').textContent = interns;
+            document.getElementById('modal-mentor').textContent = mentor;
+            document.getElementById('modal-time').textContent = time;
+            document.getElementById('modal-knowledge').textContent = knowledge;
+            document.getElementById('project-modal').style.display = 'flex';
+        };
+    
+        // Close the modal when clicking on the close button
+        document.querySelector('.close-btn').addEventListener('click', function() {
+            document.getElementById('project-modal').style.display = 'none';
+        });
+    
+        // Close the modal when clicking outside of the modal content
+        window.addEventListener('click', function(event) {
+            if (event.target === document.getElementById('project-modal')) {
+                document.getElementById('project-modal').style.display = 'none';
+            }
+        });
     // Existing scroll-up button code...
     window.addEventListener('scroll', function() {
         const scrollUpBtn = document.getElementById('scrollUpBtn');
