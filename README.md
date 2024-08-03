@@ -1,6 +1,3 @@
-Certainly! Here's the complete `README.md` file, including detailed sections for installation dependencies and steps:
-
-```markdown
 # GL-Tracker-Website
 
 Welcome to the **GL-Tracker-Website**! This project is a comprehensive solution for tracking intern data and managing projects efficiently. Leveraging MongoDB for dynamic data management and employing modern web technologies, this platform offers a robust and user-friendly experience.
