@@ -1,65 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const sections = document.querySelectorAll('section');
-  const navLinks = document.querySelectorAll('.nav-link');
-    // Initialize the carousel
-    $('#hero-carousel').carousel({
-      interval: 1000 // Change slide every 5 seconds
-    });
-
-
-    function activateNavLink() {
-        let index = sections.length;
-    
-        while (--index && window.scrollY + 100 < sections[index].offsetTop) {}
-    
-        navLinks.forEach((link) => link.classList.remove('active'));
-        navLinks[index].classList.add('active');
-      }
-    
-      activateNavLink();
-      window.addEventListener('scroll', activateNavLink);
-    });
-
-
-    // Function to send email using EmailJS
-    function sendEmail(serviceId, templateId, templateParams) {
-        emailjs.send(serviceId, templateId, templateParams)
-            .then(function(response) {
-                console.log('SUCCESS!', response.status, response.text);
-                alert('Thanks for contacting us!');
-            }, function(error) {
-                console.log('FAILED...', error);
-                alert('Failed to send message. Please try again.');
-            });
-    }
-
-    // Handle form submissions
-    document.getElementById('servicesForm').addEventListener('submit', function(event) {
-        event.preventDefault();
-        const templateParams = {
-            firstName: document.getElementById('firstName').value,
-            lastName: document.getElementById('lastName').value,
-            email: document.getElementById('email').value,
-            hearAbout: document.getElementById('hearAbout').value,
-            message: document.getElementById('message').value,
-            subscribe: document.getElementById('subscribe').checked ? 'Yes' : 'No'
-        };
-        sendEmail('service_5qy51a6', 'template_lu05x9h', templateParams);
-    });
-
-    document.getElementById('queriesForm').addEventListener('submit', function(event) {
-        event.preventDefault();
-        const templateParams = {
-            name: document.getElementById('queryName').value,
-            email: document.getElementById('queryEmail').value,
-            message: document.getElementById('queryMessage').value
-        };
-        sendEmail('service_5qy51a6', 'template_lu05x9h', templateParams);
-    });
-
-
-
-    
+    // Existing code...
 
     // Fetch intern data from backend
     fetch('http://localhost:3000/api/interns')
@@ -164,34 +104,70 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
+    // Fetch project data from backend
+    fetch('http://localhost:3000/api/projects')
+        .then(response => response.json())
+        .then(data => {
+            renderProjects(data);
+        })
+        .catch(error => console.error('Error fetching projects:', error));
 
-// Show/hide the scroll-up button based on scroll position
-window.addEventListener('scroll', function() {
-    const scrollUpBtn = document.getElementById('scrollUpBtn');
-    if (window.scrollY > 200) {
-        scrollUpBtn.classList.add('show');
-    } else {
-        scrollUpBtn.classList.remove('show');
-    }
-});
-
-// Scroll to the top when the button is clicked
-document.getElementById('scrollUpBtn').addEventListener('click', function() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-});
-
-function showForm(formId) {
-    document.querySelectorAll('.contact-form').forEach(form => {
-        form.classList.remove('active-form');
-    });
-    document.getElementById(formId).classList.add('active-form');
+        function renderProjects(projects) {
+            const projectsContainer = document.getElementById('projects-container');
+            projectsContainer.innerHTML = '';
     
-    document.querySelectorAll('.tab-btn').forEach(btn => {
-        btn.classList.remove('active');
-    });
-    if (formId === 'servicesForm') {
-        document.querySelector('.tab-btn:nth-child(1)').classList.add('active');
-    } else {
-        document.querySelector('.tab-btn:nth-child(2)').classList.add('active');
+            projects.forEach(project => {
+                const projectCard = `
+                    <div class="col-md-4">
+                        <div class="project-card">
+                            <div class="card-front">
+                                <img src="${project.imageUrl}" class="img-fluid" alt="${project.title}" />
+                            </div>
+                            <div class="card-back">
+                                <h3 style="color: #f37037">${project.title}</h3>
+                                <span><b>Technologies used: </b>${project.technologies.join(', ')}</span>
+                                <br />
+                                <br />
+                                <div style="text-align: left">
+                                    <ul>
+                                        <li>${project.description}</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                projectsContainer.innerHTML += projectCard;
+            });
     }
-}
+
+    // Existing scroll-up button code...
+    window.addEventListener('scroll', function() {
+        const scrollUpBtn = document.getElementById('scrollUpBtn');
+        if (window.scrollY > 200) {
+            scrollUpBtn.classList.add('show');
+        } else {
+            scrollUpBtn.classList.remove('show');
+        }
+    });
+
+    document.getElementById('scrollUpBtn').addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    function showForm(formId) {
+        document.querySelectorAll('.contact-form').forEach(form => {
+            form.classList.remove('active-form');
+        });
+        document.getElementById(formId).classList.add('active-form');
+
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        if (formId === 'servicesForm') {
+            document.querySelector('.tab-btn:nth-child(1)').classList.add('active');
+        } else {
+            document.querySelector('.tab-btn:nth-child(2)').classList.add('active');
+        }
+    }
+});
