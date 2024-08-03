@@ -19,6 +19,46 @@ document.addEventListener('DOMContentLoaded', function() {
       activateNavLink();
       window.addEventListener('scroll', activateNavLink);
     });
+
+
+    // Function to send email using EmailJS
+    function sendEmail(serviceId, templateId, templateParams) {
+        emailjs.send(serviceId, templateId, templateParams)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                alert('Thanks for contacting us!');
+            }, function(error) {
+                console.log('FAILED...', error);
+                alert('Failed to send message. Please try again.');
+            });
+    }
+
+    // Handle form submissions
+    document.getElementById('servicesForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const templateParams = {
+            firstName: document.getElementById('firstName').value,
+            lastName: document.getElementById('lastName').value,
+            email: document.getElementById('email').value,
+            hearAbout: document.getElementById('hearAbout').value,
+            message: document.getElementById('message').value,
+            subscribe: document.getElementById('subscribe').checked ? 'Yes' : 'No'
+        };
+        sendEmail('service_5qy51a6', 'template_lu05x9h', templateParams);
+    });
+
+    document.getElementById('queriesForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const templateParams = {
+            name: document.getElementById('queryName').value,
+            email: document.getElementById('queryEmail').value,
+            message: document.getElementById('queryMessage').value
+        };
+        sendEmail('service_5qy51a6', 'template_lu05x9h', templateParams);
+    });
+
+
+
     
 
     // Fetch intern data from backend
