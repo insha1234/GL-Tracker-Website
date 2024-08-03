@@ -7,6 +7,28 @@
     <link rel="stylesheet" href="./lib/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .btn-back {
+            background-color: #ff6f42;
+            border: none;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 80px; /* Adjust based on header height */
+            left: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+        .btn-back i {
+            font-size: 1.5rem;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
@@ -15,6 +37,7 @@
                 <h1>GlobalLogic</h1>
                 <p>GLTracker</p>
             </div>
+            
             <nav class="nav">
                 <ul class="nav-list d-flex">
                     <li class="nav-item"><a href="index.html#carouselExampleInterval" class="nav-link">Home</a></li>
@@ -29,6 +52,10 @@
             <a href="Login.html" class="btn btn-login">Login</a>
         </div>
     </header>
+
+    <button class="btn btn-back" onclick="goBack()">
+        <i class="fas fa-arrow-left"></i>
+    </button>
 
     <main class="container">
         <h2 class="text-center">Interns</h2>
@@ -45,51 +72,84 @@
         </div>
     </main>
 
-    <footer class="footer mt-auto py-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h4 class="footer-title">GlobalLogic</h4>
-                    <p class="footer-subtitle">A Hitachi Group Company</p>
-                </div>
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="footer-link">Services</a></li>
-                                <li><a href="#" class="footer-link">Work</a></li>
-                                <li><a href="#" class="footer-link">Insights</a></li>
-                                <li><a href="#" class="footer-link">Careers</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <ul class="list-unstyled">
-                                <li><a href="#" class="footer-link">About</a></li>
-                                <li><a href="#" class="footer-link">Privacy</a></li>
-                                <li><a href="#" class="footer-link">Compliance & Disclosures</a></li>
-                                <li><a href="#" class="footer-link">Contact</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 text-center">
-                            <ul class="list-inline">
-                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-linkedin"></i></a></li>
-                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-twitter"></i></a></li>
-                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-facebook"></i></a></li>
-                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-youtube"></i></a></li>
-                                <li class="list-inline-item"><a href="#" class="footer-link"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                            <p class="footer-text">2024 Copyright GlobalLogic Inc. All rights reserved.</p>
-                            <button id="scrollUpBtn" class="scroll-up-btn"><i class="fas fa-arrow-up"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+   <!--Footer-section-->
+
+   <footer class="footer mt-auto py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4 class="footer-title">GlobalLogic</h4>
+          <p class="footer-subtitle">A Hitachi Group Company</p>
         </div>
-    </footer>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-md-3">
+              <ul class="list-unstyled">
+                <li><a style="text-decoration : none;" href="#" class="footer-link">Services</a></li>
+                <li><a style="text-decoration : none;" href="#" class="footer-link">Work</a></li>
+                <li><a style="text-decoration : none;" href="#" class="footer-link">Insights</a></li>
+                <li><a style="text-decoration : none;" href="#" class="footer-link">Careers</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <ul class="list-unstyled">
+                <li><a style="text-decoration : none;" href="#" class="footer-link">About</a></li>
+                <li><a style="text-decoration : none;" href="#" class="footer-link">Privacy</a></li>
+                <li>
+                  <a style="text-decoration : none;" href="#" class="footer-link">Compliance & Disclosures</a>
+                </li>
+                <li><a style="text-decoration : none;" href="#" class="footer-link">Contact</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 text-center">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="#" class="footer-link"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="footer-link"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="footer-link"
+                    ><i class="fab fa-facebook"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="footer-link"
+                    ><i class="fab fa-youtube"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" class="footer-link"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+              <p class="footer-text">
+                2024 Copyright GlobalLogic Inc. All rights reserved.
+              </p>
+              <button id="scrollUpBtn" class="scroll-up-btn">
+                <i class="fas fa-arrow-up"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
     <script src="lib/jquery-3.7.1.min.js"></script>
     <script src="lib/Popper.js"></script>
     <script src="./lib/css/bootstrap.min.js"></script>
     <script src="all-interns.js"></script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 </body>
 </html>

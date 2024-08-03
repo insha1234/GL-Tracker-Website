@@ -45,7 +45,7 @@
     "_id": {
       "$oid": "66a268d58a5bccfef4437e91"
     },
-    "name": "John Doe",
+    "name": "Iritqa",
     "role": "Frontend Developer",
     "description": "An enthusiastic frontend developer with a keen eye for detail. Specializes in creating responsive and user-friendly web interfaces.",
     "photo": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -59,11 +59,11 @@
     "_id": {
       "$oid": "66a268d58a5bccfef4437e92"
     },
-    "name": "Jane Smith",
+    "name": "Nihal Saran Das Duggirala",
     "role": "Backend Developer",
     "description": "A highly skilled backend developer with a passion for building scalable and efficient server-side applications.",
-    "photo": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "linkedin": "https://linkedin.com/in/janesmith",
+    "photo": "https://media.licdn.com/dms/image/D4D03AQFaaIZWO9IPQw/profile-displayphoto-shrink_400_400/0/1706756591651?e=1727913600&v=beta&t=yo1pd1Du0HZ_jcT3T6oOTNJ2wXgvf4b69tDNWDZt_DE",
+    "linkedin": "https://www.linkedin.com/in/nihal-saran-das-duggirala/",
     "github": "https://github.com/janesmith",
     "website": "https://janesmith.com",
     "twitter": "https://twitter.com/janesmith",
@@ -73,11 +73,11 @@
     "_id": {
       "$oid": "66a268d58a5bccfef4437e93"
     },
-    "name": "Emily Davis",
+    "name": "Sajal Satsangi",
     "role": "UI/UX Designer",
     "description": "A creative and highly skilled UI/UX designer dedicated to crafting intuitive and aesthetically pleasing user experiences.",
-    "photo": "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "linkedin": "https://linkedin.com/in/emilydavis",
+    "photo": "https://media.licdn.com/dms/image/D4D03AQGbLkLrr_VNKA/profile-displayphoto-shrink_400_400/0/1689824948962?e=1727913600&v=beta&t=s3803cA7u0j8pWDfAQIa5BWsr0liA8TD4o8VHVI_vmc",
+    "linkedin": "https://www.linkedin.com/in/sajal-satsangi-547802204/",
     "github": "https://github.com/emilydavis",
     "website": "https://emilydavis.com",
     "twitter": "https://twitter.com/emilydavis",
@@ -87,11 +87,11 @@
     "_id": {
       "$oid": "66a268d58a5bccfef4437e94"
     },
-    "name": "Michael Brown",
+    "name": "Nakirekanti Shikhar",
     "role": "Data Scientist",
     "description": "A data scientist with a strong background in machine learning and data analysis. Passionate about deriving insights from data.",
-    "photo": "https://images.pexels.com/photos/3748221/pexels-photo-3748221.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "linkedin": "https://linkedin.com/in/michaelbrown",
+    "photo": "https://media.licdn.com/dms/image/D4D03AQEJoLYZ8IkgeA/profile-displayphoto-shrink_400_400/0/1685933964356?e=1727913600&v=beta&t=l9mY0lxZgPLsWUJ4hL1KF6MScjPXumy-ZCA_dq03I4w",
+    "linkedin": "https://www.linkedin.com/in/shikhar-n-a8ab80222/",
     "github": "https://github.com/michaelbrown",
     "website": "https://michaelbrown.com",
     "twitter": "https://twitter.com/michaelbrown",
@@ -101,7 +101,7 @@
     "_id": {
       "$oid": "66a268d58a5bccfef4437e95"
     },
-    "name": "Sophia Wilson",
+    "name": "Abhimanyu Joshi",
     "role": "DevOps Engineer",
     "description": "A DevOps engineer with expertise in CI/CD pipelines, cloud infrastructure, and automation. Committed to improving development workflows.",
     "photo": "https://images.pexels.com/photos/1239293/pexels-photo-1239293.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -110,117 +110,6 @@
     "website": "https://sophiawilson.com",
     "twitter": "https://twitter.com/sophiawilson",
     "company": "https://company.com/sophia-wilson"
-  },
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e96"
-    },
-    "name": "Liam Johnson",
-    "role": "Mobile Developer",
-    "description": "A mobile developer with a focus on creating seamless and engaging mobile applications. Skilled in both iOS and Android development.",
-    "photo": "https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "linkedin": "https://linkedin.com/in/liamjohnson",
-    "github": "https://github.com/liamjohnson",
-    "website": "https://liamjohnson.com",
-    "twitter": "https://twitter.com/liamjohnson",
-    "company": "https://company.com/liam-johnson"
-  },
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e97"
-    },
-    "name": "Olivia Smith",
-    "role": "Cybersecurity Analyst",
-    "description": "A cybersecurity analyst skilled in protecting systems and networks from digital attacks. Experienced in threat detection and incident response.",
-    "photo": "https://images.pexels.com/photos/4359272/pexels-photo-4359272.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "linkedin": "https://linkedin.com/in/oliviasmith",
-    "github": "https://github.com/oliviasmith",
-    "website": "https://oliviasmith.com",
-    "twitter": "https://twitter.com/oliviasmith",
-    "company": "https://company.com/olivia-smith"
-  },
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e98"
-    },
-    "name": "Ethan Miller",
-    "role": "Cloud Engineer",
-    "description": "A cloud engineer specializing in designing and managing cloud infrastructure and services. Committed to optimizing cloud solutions for performance and cost-efficiency.",
-    "photo": "https://images.pexels.com/photos/2181971/pexels-photo-2181971.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "linkedin": "https://linkedin.com/in/ethanmiller",
-    "github": "https://github.com/ethanmiller",
-    "website": "https://ethanmiller.com",
-    "twitter": "https://twitter.com/ethanmiller",
-    "company": "https://company.com/ethan-miller"
-  },
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e99"
-    },
-    "name": "Emma Davis",
-    "role": "Product Manager",
-    "description": "A product manager with a strong background in leading cross-functional teams and driving product development. Focused on delivering innovative solutions to meet user needs.",
-    "photo": "https://images.pexels.com/photos/3184364/pexels-photo-3184364.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "linkedin": "https://linkedin.com/in/emmadavis",
-    "github": "https://github.com/emmadavis",
-    "website": "https://emmadavis.com",
-    "twitter": "https://twitter.com/emmadavis",
-    "company": "https://company.com/emma-davis"
-  },
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e9a"
-    },
-    "name": "Lucas Turner",
-    "role": "Software Engineer",
-    "description": "A software engineer with experience in developing high-performance applications and systems. Passionate about coding and technology.",
-    "photo": "https://images.pexels.com/photos/758688/pexels-photo-758688.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "linkedin": "https://linkedin.com/in/lucasturner",
-    "github": "https://github.com/lucasturner",
-    "website": "https://lucasturner.com",
-    "twitter": "https://twitter.com/lucasturner",
-    "company": "https://company.com/lucas-turner"
-  },
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e9b"
-    },
-    "name": "Chloe Martinez",
-    "role": "QA Engineer",
-    "description": "A QA engineer focused on ensuring the quality and performance of software products through rigorous testing and debugging.",
-    "photo": "https://images.pexels.com/photos/1669795/pexels-photo-1669795.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "linkedin": "https://linkedin.com/in/chloemartinez",
-    "github": "https://github.com/chloemartinez",
-    "website": "https://chloemartinez.com",
-    "twitter": "https://twitter.com/chloemartinez",
-    "company": "https://company.com/chloe-martinez"
-  },
-  {
-    "_id": {
-      "$oid": "66a28d22105ab56280ceb091"
-    },
-    "name": "James Bond",
-    "role": "Full-Stack Developer",
-    "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
-    "photo": "https://pbs.twimg.com/media/GQTOXl2WUAAalUh.jpg",
-    "linkedin": "https://linkedin.com/in/jamesbond",
-    "github": "https://github.com/jamesbond",
-    "website": "https://jamesbond.com",
-    "twitter": "https://twitter.com/jamesbond",
-    "company": "https://company.com/james-bond"
-  },
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e9f"
-    },
-    "name": "Hero Fiennes Tiffin",
-    "role": "UI/UX Developer",
-    "description": "An imaginative UI/UX Developer known for blending creativity with technology. Skilled in designing intuitive and aesthetically pleasing user interfaces that enhance overall.",
-    "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAttVnOqj2pwhbt5pHjZUzYW0GhtBRI_LBRw&s",
-    "linkedin": "https://linkedin.com/in/herofiennestiffin",
-    "github": "https://github.com/herofiennestiffin",
-    "website": "https://herofiennestiffin.com",
-    "twitter": "https://twitter.com/herofiennestiffin",
-    "company": "https://company.com/hero-fiennes-tiffin"
   }
 ]
+
