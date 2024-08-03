@@ -11,6 +11,11 @@ Contributing
 License
 Contact
 
+How To run this ?
+1. Setup mongodb 
+2. run node server.js
+3. node loginserver.js
+4.  Run index.html file 
 
 Features:
 Dynamic Intern Cards: Fetch and display intern data dynamically from MongoDB.

@@ -1,18 +1,5 @@
 /* General Styles */
-/* Stats Section */
-.stats-section {
-  background-color: #f37037;
-  color: white;
-}
 
-.stat-item {
-  margin-top: 20px;
-}
-
-.stat-item i {
-  margin-bottom: 10px;
-  color: white;
-}
 body {
   background-color: #A9A9A9;
 }
@@ -413,6 +400,22 @@ h2.text-center {
 .btn-primary:hover {
   background-color: #f37037; /* Change background to orange on hover */
   border-color: #f37037; /* Optional: Change border color to match on hover */
+}
+
+
+/* Stats Section */
+.stats-section {
+  background-color: #f37037;
+  color: white;
+}
+
+.stat-item {
+  margin-top: 20px;
+}
+
+.stat-item i {
+  margin-bottom: 10px;
+  color: white;
 }
 
 

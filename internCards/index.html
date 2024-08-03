@@ -6,18 +6,28 @@
     <title>GL TRACKER</title>
     <link rel="stylesheet" href="lib/css/bootstrap.min.css" />
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="lib/ag-grid/ag-grid-community.min.js" />
     <link rel="stylesheet" href="lib/ag-grid/ag-theme-alpine.css" />
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="lib/ag-grid/ag-grid-community.min.js" />
+    <link rel="stylesheet" href="lib/ag-grid/ag-theme-alpine.css" />
+
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("c2wT6qwBUwV3_p1iy");
+   })();
+</script>
   </head>
   <body>
+
+    <!--Header starts here-->
     <header class="header sticky-top">
       <div class="container d-flex justify-content-between align-items-center">
         <div class="logo">
@@ -26,7 +36,7 @@
         </div>
         <nav class="nav">
           <ul class="nav-list d-flex">
-            <li class="nav-item"><a href="#hero-section" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#carouselExampleInterval" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
             <li class="nav-item"><a href="#interns" class="nav-link">Interns</a></li>
             <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
@@ -444,6 +454,11 @@
                 <h5>Find Your Next Adventure</h5>
               </div>
             </div>
+            <div class="carousel-item" style="height: 400px; background: url('./assets/portfolio/portfolio4.jpeg') no-repeat center center; background-size: cover;">
+              <div class="carousel-caption d-none d-md-block" style="bottom: 60px;">
+                <h5>Explore More</h5>
+              </div>
+            </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -453,7 +468,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
-          <div class="carousel-indicators" style="position: absolute; bottom: 10px; left: 90%; transform: translateX(-50%); display: flex; gap: 50px; overflow: visible;">
+          <div class="carousel-indicators" style="position: absolute; bottom: 10px; left: 92.5%; transform: translateX(-50%); display: flex; gap: 50px; overflow: visible;">
             <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="background-color: transparent; border: none;">
               <img src="./assets/portfolio/portfolio1.jpeg" style="height: 50px; width: 50px; object-fit: cover; border-radius: 50%; border: 2px solid #000000;">
             </button>
@@ -462,6 +477,9 @@
             </button>
             <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2" aria-label="Slide 3" style="background-color: transparent; border: none;">
               <img src="./assets/portfolio/portfolio3.jpeg" style="height: 50px; width: 50px; object-fit: cover; border-radius: 50%; border: 2px solid #000000;">
+            </button>
+            <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="3" aria-label="Slide 4" style="background-color: transparent; border: none;">
+              <img src="./assets/portfolio/portfolio4.jpeg" style="height: 50px; width: 50px; object-fit: cover; border-radius: 50%; border: 2px solid #000000;">
             </button>
           </div>
         </div>
@@ -487,7 +505,8 @@
         <h2>About Us</h2>
         <p>Our Headquarters located in USA.</p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <a href="#more-info" class="btn btn-primary">Know More</a>
+        <a href="about.html" class="btn btn-primary">Know More</a>
+       
       </div>
     </div>
   </div>

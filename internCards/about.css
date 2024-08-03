@@ -1,0 +1,126 @@
+/* Header Styles */
+.header {
+    background-color: #414042;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header .logo p {
+    margin: 0;
+  }
+  
+  .header .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header .nav-list .nav-item {
+    margin-left: 20px;
+  }
+  
+  .header .nav-list .nav-item .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header .nav-list .nav-item .nav-link:hover {
+    background-color: #f37037;
+    color: white;
+  }
+  
+  .header .btn-login {
+    background-color: white;
+    color: #414042;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+  }
+  
+  .header .btn-login:hover {
+    background-color: #f37037;
+    color: white;
+  }
+  
+
+
+/* about us styling starts here */
+
+body {
+    background-color: #FFFFFF;
+}
+
+.about-us {
+    background: linear-gradient(to bottom, #a9a9a9 75%, #FFFFFF 50%);
+    padding: 50px 0;
+    position: relative;
+}
+
+.about-us h2 {
+    font-size: 2.5rem;
+    margin-top: 8rem; /* Adjust this value as needed to move the heading down */
+    margin-bottom: 1rem;
+}
+
+.about-us p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+}
+
+.about-us .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col-md-3.col-6 img.img-fluid.rounded {
+    height: 250px; /* Set a fixed height */
+    width: 250px; /* Set the same value for width to make it square */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    margin-right: 0; /* Decrease right margin */
+}
+    
+.col-md-3.col-7 img.img-fluid.rounded {
+    height: 170px; /* Set a fixed height */
+    width: 300px; /* Set the same value for width to make it square */
+    object-fit: cover; /* Ensure the image covers the area without stretching */
+    margin-top: 30px;
+    margin-left: 0; /* Decrease left margin */
+   
+}
+
+.content-section h3 {
+  margin-bottom: 20px;
+}
+
+.content-section p {
+  margin-bottom: 20px;
+}
+
+.blockquote {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.blockquote-footer {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+
+.card-text {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
