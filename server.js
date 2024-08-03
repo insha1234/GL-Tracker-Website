@@ -28,10 +28,26 @@ const internSchema = new mongoose.Schema({
 
 const Intern = mongoose.model('Intern', internSchema);
 
+// Define a schema and model for project data
+const projectSchema = new mongoose.Schema({
+    title: String,
+    description: String,
+    technologies: [String],
+    imageUrl: String
+});
+
+const Project = mongoose.model('Project', projectSchema);
+
 // Route to get intern data
 app.get('/api/interns', async (req, res) => {
     const interns = await Intern.find();
     res.send(interns);
+});
+
+// Route to get project data
+app.get('/api/projects', async (req, res) => {
+    const projects = await Project.find();
+    res.send(projects);
 });
 
 // Start the server

@@ -1,0 +1,39 @@
+[
+    {
+      "title": "Indoor Navigation Robot",
+      "description": "Developed an indoor navigation robot with Arduino sensors and IDE",
+      "technologies": ["Arduino", "Arduino IDE", "React.js", "Sensors", "Basic UI/UX design"],
+      "imageUrl": "./assets/project1.jpeg"
+    },
+    {
+      "title": "Amazon Clone",
+      "description": "Developed an Amazon clone showcasing full-stack development proficiency and e-commerce functionalities",
+      "technologies": ["React.js", "Javascript", "Html", "Css", "Node.js", "Express.js", "MongoDB"],
+      "imageUrl": "./assets/Project2.jpg"
+    },
+    {
+      "title": "Benchmarking Places",
+      "description": "Developed a location-based web app with Node.js and MongoDB",
+      "technologies": ["React.js", "Typescript", "Html", "Css", "Node.js", "Express.js", "MongoDB"],
+      "imageUrl": "./assets/Project3.jpg"
+    },
+    {
+      "title": "Weather Forecasting App",
+      "description": "Created a weather forecasting app using React and OpenWeather API",
+      "technologies": ["React.js", "OpenWeather API", "CSS", "HTML", "Node.js"],
+      "imageUrl": "./assets/project4.jpg"
+    },
+    {
+      "title": "Personal Blog Website",
+      "description": "Developed a personal blog website with a focus on responsive design and SEO",
+      "technologies": ["Gatsby.js", "GraphQL", "React.js", "CSS", "HTML"],
+      "imageUrl": "./assets/project5.jpg"
+    },
+    {
+      "title": "Fitness Tracker App",
+      "description": "Built a fitness tracker app to monitor workouts and track progress",
+      "technologies": ["React Native", "Firebase", "JavaScript", "CSS", "HTML"],
+      "imageUrl": "./assets/project6.jpg"
+    }
+  ]
+  
