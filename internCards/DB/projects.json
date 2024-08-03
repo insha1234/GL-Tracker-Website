@@ -3,37 +3,92 @@
       "title": "Indoor Navigation Robot",
       "description": "Developed an indoor navigation robot with Arduino sensors and IDE",
       "technologies": ["Arduino", "Arduino IDE", "React.js", "Sensors", "Basic UI/UX design"],
-      "imageUrl": "./assets/project1.jpeg"
+      "imageUrl": "./assets/project1.jpeg",
+      "bulletPoints": [
+        "Developed an indoor navigation robot with Arduino sensors and IDE",
+        "Managed sensor integration",
+        "Oversaw overall project development for seamless functionality",
+        "Optimized performance for better efficiency",
+        "Implemented real-time data processing"
+      ]
     },
     {
       "title": "Amazon Clone",
       "description": "Developed an Amazon clone showcasing full-stack development proficiency and e-commerce functionalities",
-      "technologies": ["React.js", "Javascript", "Html", "Css", "Node.js", "Express.js", "MongoDB"],
-      "imageUrl": "./assets/Project2.jpg"
+      "technologies": ["React.js", "JavaScript", "HTML", "CSS", "Node.js", "Express.js", "MongoDB"],
+      "imageUrl": "./assets/Project2.jpg",
+      "bulletPoints": [
+        "Developed a full-stack e-commerce application with React.js and Node.js",
+        "Implemented user authentication and payment systems",
+        "Integrated MongoDB for data storage and retrieval",
+        "Ensured responsive design for a seamless user experience",
+        "Optimized backend performance and security"
+      ]
     },
     {
       "title": "Benchmarking Places",
       "description": "Developed a location-based web app with Node.js and MongoDB",
-      "technologies": ["React.js", "Typescript", "Html", "Css", "Node.js", "Express.js", "MongoDB"],
-      "imageUrl": "./assets/Project3.jpg"
+      "technologies": ["React.js", "TypeScript", "HTML", "CSS", "Node.js", "Express.js", "MongoDB"],
+      "imageUrl": "./assets/Project3.jpg",
+      "bulletPoints": [
+        "Created a web app for location-based services using Node.js and MongoDB",
+        "Implemented responsive design for various devices",
+        "Integrated third-party map APIs for location visualization",
+        "Managed version control with Git",
+        "Enhanced user experience with real-time data updates"
+      ]
     },
     {
-      "title": "Weather Forecasting App",
-      "description": "Created a weather forecasting app using React and OpenWeather API",
-      "technologies": ["React.js", "OpenWeather API", "CSS", "HTML", "Node.js"],
-      "imageUrl": "./assets/project4.jpg"
+      "title": "Chat Application",
+      "description": "Developed a real-time chat application using WebSockets and Node.js",
+      "technologies": ["Node.js", "Express.js", "Socket.io", "JavaScript", "HTML", "CSS"],
+      "imageUrl": "./assets/Project4.png",
+      "bulletPoints": [
+        "Built a real-time chat application with WebSocket technology",
+        "Implemented features such as private messaging and group chats",
+        "Ensured data persistence with MongoDB",
+        "Designed a user-friendly interface with HTML and CSS",
+        "Optimized server performance for handling multiple users"
+      ]
     },
     {
-      "title": "Personal Blog Website",
-      "description": "Developed a personal blog website with a focus on responsive design and SEO",
-      "technologies": ["Gatsby.js", "GraphQL", "React.js", "CSS", "HTML"],
-      "imageUrl": "./assets/project5.jpg"
+      "title": "Portfolio Website",
+      "description": "Created a personal portfolio website to showcase skills and projects",
+      "technologies": ["HTML", "CSS", "JavaScript", "React.js"],
+      "imageUrl": "./assets/Project5.jpeg",
+      "bulletPoints": [
+        "Developed a personal portfolio website to showcase projects and skills",
+        "Implemented interactive features using React.js",
+        "Designed a responsive layout for various devices",
+        "Used CSS animations for improved user experience",
+        "Optimized for SEO and fast loading times"
+      ]
     },
     {
-      "title": "Fitness Tracker App",
-      "description": "Built a fitness tracker app to monitor workouts and track progress",
-      "technologies": ["React Native", "Firebase", "JavaScript", "CSS", "HTML"],
-      "imageUrl": "./assets/project6.jpg"
+      "title": "E-commerce Dashboard",
+      "description": "Built an e-commerce dashboard for managing products, orders, and users",
+      "technologies": ["React.js", "Node.js", "Express.js", "MongoDB", "JavaScript"],
+      "imageUrl": "./assets/Project6.png",
+      "bulletPoints": [
+        "Developed a comprehensive dashboard for e-commerce management",
+        "Implemented user roles and permissions for secure access",
+        "Integrated real-time updates for orders and inventory",
+        "Created visualizations for sales and user analytics",
+        "Optimized backend queries for performance"
+      ]
+    },
+    {
+      "title": "Weather Forecast App",
+      "description": "Created a weather forecast application with real-time data",
+      "technologies": ["React.js", "JavaScript", "HTML", "CSS", "OpenWeatherMap API"],
+      "imageUrl": "./assets/Project7.jpg",
+      "bulletPoints": [
+        "Developed a weather forecast app using React.js and OpenWeatherMap API",
+        "Implemented real-time weather data fetching and display",
+        "Designed a user-friendly interface with dynamic weather visuals",
+        "Ensured responsiveness and cross-browser compatibility",
+        "Optimized performance for quick data retrieval"
+      ]
     }
   ]
   

@@ -126,11 +126,10 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="card-back">
                                 <h3 style="color: #f37037">${project.title}</h3>
                                 <span><b>Technologies used: </b>${project.technologies.join(', ')}</span>
-                                <br />
-                                <br />
+                                <br /><br />
                                 <div style="text-align: left">
                                     <ul>
-                                        <li>${project.description}</li>
+                                        ${project.bulletPoints.map(point => `<li>${point}</li>`).join('')}
                                     </ul>
                                 </div>
                             </div>
@@ -139,6 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 `;
                 projectsContainer.innerHTML += projectCard;
             });
+    
     }
 
     // Existing scroll-up button code...

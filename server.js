@@ -33,7 +33,8 @@ const projectSchema = new mongoose.Schema({
     title: String,
     description: String,
     technologies: [String],
-    imageUrl: String
+    imageUrl: String,
+    bulletPoints: [String]
 });
 
 const Project = mongoose.model('Project', projectSchema);
