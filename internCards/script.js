@@ -137,11 +137,11 @@ document.addEventListener('DOMContentLoaded', function() {
         function renderProjects(projects) {
             const projectsContainer = document.getElementById('projects-container');
             projectsContainer.innerHTML = '';
-    
+        
             projects.forEach(project => {
                 const projectCard = `
                     <div class="col-md-4">
-                        <div class="project-card" onclick="openModal('${project.title}', '${project.imageUrl}', '${project.technologies.join(', ')}', 'Interns Details', 'Mentor Name', 'Time Taken', 'Knowledge Gained')">
+                        <div class="project-card" onclick="openModal('${project.title}', '${project.imageUrl}', '${project.technologies.join(', ')}', '${project.interns}', '${project.mentor}', '${project.timeTaken}', '${project.knowledgeGained}')">
                             <div class="card-front">
                                 <img src="${project.imageUrl}" class="img-fluid" alt="${project.title}" />
                             </div>
@@ -160,7 +160,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 `;
                 projectsContainer.innerHTML += projectCard;
             });
+        
+            window.projects = projects;
         }
+        
 
 
          // Function to send email using EmailJS
