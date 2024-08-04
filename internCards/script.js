@@ -1,5 +1,27 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Existing code...
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
+      // Initialize the carousel
+      $('#hero-carousel').carousel({
+        interval: 1000 // Change slide every 5 seconds
+      });
+  
+  
+      function activateNavLink() {
+          let index = sections.length;
+      
+          while (--index && window.scrollY + 100 < sections[index].offsetTop) {}
+      
+          navLinks.forEach((link) => link.classList.remove('active'));
+          navLinks[index].classList.add('active');
+        }
+      
+        activateNavLink();
+        window.addEventListener('scroll', activateNavLink);
+      });
+      
+  
 
     // Fetch intern data from backend
     fetch('http://localhost:3000/api/interns')
@@ -139,6 +161,44 @@ document.addEventListener('DOMContentLoaded', function() {
                 projectsContainer.innerHTML += projectCard;
             });
         }
+
+
+         // Function to send email using EmailJS
+    function sendEmail(serviceId, templateId, templateParams) {
+        emailjs.send(serviceId, templateId, templateParams)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                alert('Thanks for contacting us!');
+            }, function(error) {
+                console.log('FAILED...', error);
+                alert('Failed to send message. Please try again.');
+            });
+    }
+
+    // Handle form submissions
+    document.getElementById('servicesForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const templateParams = {
+            firstName: document.getElementById('firstName').value,
+            lastName: document.getElementById('lastName').value,
+            email: document.getElementById('email').value,
+            hearAbout: document.getElementById('hearAbout').value,
+            message: document.getElementById('message').value,
+            subscribe: document.getElementById('subscribe').checked ? 'Yes' : 'No'
+        };
+        sendEmail('service_5qy51a6', 'template_lu05x9h', templateParams);
+    });
+
+    document.getElementById('queriesForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const templateParams = {
+            name: document.getElementById('queryName').value,
+            email: document.getElementById('queryEmail').value,
+            message: document.getElementById('queryMessage').value
+        };
+        sendEmail('service_5qy51a6', 'template_lu05x9h', templateParams);
+    });
+
     
         // Function to open the modal
         window.openModal = function(title, imageUrl, technologies, interns, mentor, time, knowledge) {
@@ -192,4 +252,3 @@ document.addEventListener('DOMContentLoaded', function() {
             document.querySelector('.tab-btn:nth-child(2)').classList.add('active');
         }
     }
-});
