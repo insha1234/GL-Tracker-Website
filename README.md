@@ -36,7 +36,7 @@ Welcome to the **GL-Tracker-Website**! This project is a comprehensive solution 
    ```
 
 3. **Set Up MongoDB**
-   - Start MongoDB and create a new database named `intern_tracker`.
+   - Start MongoDB and create a new database named `internsDB` and add collections in it like 'interns','photos' and 'projects'.
    - Update the MongoDB connection string in the configuration file (e.g., `config/db.js`) if necessary to match your MongoDB setup.
 
 4. **Run the Application**
