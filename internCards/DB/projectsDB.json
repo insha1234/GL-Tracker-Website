@@ -8,7 +8,6 @@
           "Developed an indoor navigation robot with Arduino sensors and IDE.",
           "Managed sensor integration.",
           "Oversaw overall project development for seamless functionality.",
-          "Optimized performance for better efficiency.",
           "Implemented real-time data processing."
       ],
       "interns": "John Doe, Jane Smith",
@@ -25,8 +24,8 @@
           "Developed a full-stack e-commerce application with React.js and Node.js.",
           "Implemented user authentication and payment systems.",
           "Integrated MongoDB for data storage and retrieval.",
-          "Ensured responsive design for a seamless user experience.",
-          "Optimized backend performance and security."
+          "Ensured responsive design for a seamless user experience."
+          
       ],
       "interns": "Alice Cooper, Bob Brown",
       "mentor": "Dr. Emily Davis",
@@ -40,7 +39,6 @@
       "imageUrl": "./assets/Project3.jpg",
       "bulletPoints": [
           "Created a web app for location-based services using Node.js and MongoDB.",
-          "Implemented responsive design for various devices.",
           "Integrated third-party map APIs for location visualization.",
           "Managed version control with Git.",
           "Enhanced user experience with real-time data updates."
@@ -59,7 +57,6 @@
           "Built a real-time chat application with WebSocket technology.",
           "Implemented features such as private messaging and group chats.",
           "Ensured data persistence with MongoDB.",
-          "Designed a user-friendly interface with HTML and CSS.",
           "Optimized server performance for handling multiple users."
       ],
       "interns": "Linda Green, Tom Harris",
@@ -93,8 +90,8 @@
           "Developed a comprehensive dashboard for e-commerce management.",
           "Implemented user roles and permissions for secure access.",
           "Integrated real-time updates for orders and inventory.",
-          "Created visualizations for sales and user analytics.",
-          "Optimized backend queries for performance."
+          "Created visualizations for sales and user analytics."
+        
       ],
       "interns": "Rachel Moore, James Lee",
       "mentor": "Dr. Olivia Martinez",
@@ -110,8 +107,8 @@
           "Developed a weather forecast app using React.js and OpenWeatherMap API.",
           "Implemented real-time weather data fetching and display.",
           "Designed a user-friendly interface with dynamic weather visuals.",
-          "Ensured responsiveness and cross-browser compatibility.",
-          "Optimized performance for quick data retrieval."
+          "Ensured responsiveness and cross-browser compatibility."
+        
       ],
       "interns": "Jessica Brown, Kevin White",
       "mentor": "Dr. Rachel Green",
