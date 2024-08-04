@@ -6,8 +6,34 @@
     <script src="https://kit.fontawesome.com/2b1d82bcb9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Login.css">
     <title>Sign In & Sign Up</title>
+    <style>
+        .btn-back {
+            background-color: #ff6f42;
+            border: none;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 80px; /* Adjust based on header height */
+            left: 20px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+        .btn-back i {
+            font-size: 1.5rem;
+        }
+        </style>
 </head>
 <body>
+
+    <button class="btn btn-back" onclick="goBack()">
+        <i class="fas fa-arrow-left"></i>
+    </button>
     <div class="container">
         <div class="forms-container">
             <div class="signin-signup">
@@ -75,6 +101,7 @@
                 </form>
             </div>
         </div>
+
         <div class="panels-container">
             <div class="panel left-panel">
                 <div class="content">
@@ -96,5 +123,10 @@
     </div>
 
     <script src="Login.js"></script>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
 </body>
 </html>
