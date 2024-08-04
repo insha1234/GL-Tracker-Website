@@ -10,8 +10,8 @@
           "Oversaw overall project development for seamless functionality.",
           "Implemented real-time data processing."
       ],
-      "interns": "John Doe, Jane Smith",
-      "mentor": "Dr. Alice Johnson",
+      "interns": ["Insha Khan", "Muskan Arya" , "Aashi Chaudhary"],
+      "mentor": "P Sreedhar",
       "timeTaken": "3 months",
       "knowledgeGained": "Enhanced skills in robotics, sensor integration, and real-time data processing."
   },
@@ -27,7 +27,7 @@
           "Ensured responsive design for a seamless user experience."
           
       ],
-      "interns": "Alice Cooper, Bob Brown",
+      "interns": "Nihal Saran Das Duggirala, Sajal Satsangi",
       "mentor": "Dr. Emily Davis",
       "timeTaken": "4 months",
       "knowledgeGained": "Gained experience in full-stack development, e-commerce functionalities, and backend optimization."
@@ -49,15 +49,15 @@
       "knowledgeGained": "Improved skills in location-based services, map API integration, and responsive design."
   },
   {
-      "title": "Chat Application",
+      "title": "GL-Tracker",
       "description": "Developed a real-time chat application using WebSockets and Node.js.",
-      "technologies": ["Node.js", "Express.js", "Socket.io", "JavaScript", "HTML", "CSS"],
+      "technologies": ["Javascript", "Html"  , "CSS" , "SCSS" , "Node.js" ,
+"Express.js" , "MongoDB" , "Boostrap" , "JQuery"],
       "imageUrl": "./assets/Project4.png",
       "bulletPoints": [
-          "Built a real-time chat application with WebSocket technology.",
-          "Implemented features such as private messaging and group chats.",
-          "Ensured data persistence with MongoDB.",
-          "Optimized server performance for handling multiple users."
+          "Developed an Intern Tracker Website showcasing full-stack development proficiency and e-commerce functionalities.",
+          "Enhanced skills in front-end, back-end, database management, and deployment strategies."
+          
       ],
       "interns": "Linda Green, Tom Harris",
       "mentor": "Dr. Steven Clark",
@@ -107,7 +107,7 @@
           "Developed a weather forecast app using React.js and OpenWeatherMap API.",
           "Implemented real-time weather data fetching and display.",
           "Designed a user-friendly interface with dynamic weather visuals.",
-          "Ensured responsiveness and cross-browser compatibility."
+          "Ensured responsiveness."
         
       ],
       "interns": "Jessica Brown, Kevin White",
