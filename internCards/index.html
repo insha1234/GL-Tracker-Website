@@ -79,10 +79,16 @@
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="3000">
-            <img src="assets/Slide1.jpg" class="d-block w-100" alt="Slide2" />
+            <img src="assets/Slide1.jpg" class="d-block w-100" alt="Slide1" />
             <div class="carousel-caption d-none d-md-block">
               <h6
                 style="
@@ -150,7 +156,30 @@
               </div>
             </div>
           </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="assets/Slide4.jpg" class="d-block w-100" alt="Slide4" />
+          <div class="carousel-caption d-none d-md-block">
+            <h6
+              style="
+                font-family: 'Lalezar', sans-serif;
+                font-size: 128px;
+                font-weight: bold;
+                text-shadow: 0 0 1px white, 0 0 1px white, 0 0 2px white;
+              "
+            >
+              <span style="color: white">GL</span>
+              <span style="color: #f37037">TRACKER</span>
+            </h6>
+            <p>Discover, Share, and Celebrate Our Collective Success</p>
+            <div class="icon-container">
+              <a href="#interns">
+                <i class="fas fa-angle-down icon"></i>
+                <div class="square"></div>
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
         <button
           class="carousel-control-prev"
           type="button"
@@ -189,25 +218,25 @@
   </div>
 
 <!-- Modal Structure -->
-<!-- Modal Structure -->
 <div id="project-modal" class="modal">
-  <div class="modal-content" style="box-shadow: 0 0 10px #f37037;">
+  <div class="modal-content">
       <span class="close-btn">&times;</span>
-      <h2 id="modal-heading">Project Title</h2>
-      <div class="modal-body">
-          <div class="modal-image">
-              <img id="modal-image" src="" alt="Project Image" style="box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);" />
-          </div>
-          <div class="modal-details">
-              <p><strong>Technologies:</strong> <span id="modal-technologies"></span></p>
-              <p><strong>Interns Involved:</strong> <span id="modal-interns"></span></p>
-              <p><strong>Mentor:</strong> <span id="modal-mentor"></span></p>
-              <p><strong>Time Taken:</strong> <span id="modal-time"></span></p>
-              <p><strong>Knowledge Gained:</strong> <span id="modal-knowledge"></span></p>
+      <div class="modal-top" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+        <img id="modal-image" class="modal-image" src="" alt="Project Image" style="max-width: 100%; max-height: 100%;">
+      </div>
+      <div class="modal-bottom">
+          <h2 id="modal-heading"></h2>
+          <div id="modal-content" class="modal-content-scrollable">
+              <p><b>Technologies:</b> <span id="modal-technologies"></span></p>
+              <p><b>Interns Involved:</b> <span id="modal-interns"></span></p>
+              <p><b>Mentor:</b> <span id="modal-mentor"></span></p>
+              <p><b>Time Taken:</b> <span id="modal-time"></span></p>
+              <p><b>Knowledge Gained:</b> <span id="modal-knowledge"></span></p>
           </div>
       </div>
   </div>
 </div>
+
 
 
 
@@ -316,7 +345,7 @@
         <h2>About Us</h2>
         <p>Our Headquarters located in USA.</p>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        <a href="about.html" class="btn btn-primary">Know More</a>
+        <a href="about.html" class="btn btn-primary" style="background-color: #f37037; color: white; border: none; padding: 10px 20px; text-decoration: none; display: inline-block; border-radius: 30px;">Know More</a>
        
       </div>
     </div>
@@ -534,19 +563,19 @@
             <div class="col-md-3">
               <ul class="list-unstyled">
                 <li><a style="text-decoration : none;" href="#" class="footer-link">Services</a></li>
-                <li><a style="text-decoration : none;" href="#" class="footer-link">Work</a></li>
-                <li><a style="text-decoration : none;" href="#" class="footer-link">Insights</a></li>
+                <li><a style="text-decoration : none;" href="#projects" class="footer-link">Work</a></li>
+                <li><a style="text-decoration : none;" href="#interns" class="footer-link">Insights</a></li>
                 <li><a style="text-decoration : none;" href="#" class="footer-link">Careers</a></li>
               </ul>
             </div>
             <div class="col-md-3">
               <ul class="list-unstyled">
-                <li><a style="text-decoration : none;" href="#" class="footer-link">About</a></li>
+                <li><a style="text-decoration : none;" href="#about-us" class="footer-link">About</a></li>
                 <li><a style="text-decoration : none;" href="#" class="footer-link">Privacy</a></li>
                 <li>
                   <a style="text-decoration : none;" href="#" class="footer-link">Compliance & Disclosures</a>
                 </li>
-                <li><a style="text-decoration : none;" href="#" class="footer-link">Contact</a></li>
+                <li><a style="text-decoration : none;" href="#contact" class="footer-link">Contact</a></li>
               </ul>
             </div>
             <div class="col-md-6 text-center">
