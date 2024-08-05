@@ -27,8 +27,8 @@
           "Ensured responsive design for a seamless user experience."
           
       ],
-      "interns": "Nihal Saran Das Duggirala, Sajal Satsangi",
-      "mentor": "Dr. Emily Davis",
+      "interns": ["Nihal Saran Das Duggirala, Sajal Satsangi","Nakirekanti Shikhar"],
+      "mentor": "Seetaram Yadav",
       "timeTaken": "4 months",
       "knowledgeGained": "Gained experience in full-stack development, e-commerce functionalities, and backend optimization."
   },
@@ -43,9 +43,9 @@
           "Managed version control with Git.",
           "Enhanced user experience with real-time data updates."
       ],
-      "interns": "Sarah Lee, Mark Wilson",
-      "mentor": "Dr. Michael Taylor",
-      "timeTaken": "2.5 months",
+      "interns": ["Nihal Saran Das Duggirala, Sajal Satsangi","Nakirekanti Shikhar","Muskan Arya","Insha Khan","Aashi Chaudhary"],
+      "mentor": ["Rajas Joshi","Seetaram Yadav"],
+      "timeTaken": "1 month",
       "knowledgeGained": "Improved skills in location-based services, map API integration, and responsive design."
   },
   {
@@ -59,9 +59,9 @@
           "Enhanced skills in front-end, back-end, database management, and deployment strategies."
           
       ],
-      "interns": "Linda Green, Tom Harris",
-      "mentor": "Dr. Steven Clark",
-      "timeTaken": "3 months",
+      "interns": ["Insha Khan", "Muskan Arya" , "Aashi Chaudhary"],
+      "mentor": ["Surbhi Agarwal","Seetaram Yadav"],
+      "timeTaken": "1 month",
       "knowledgeGained": "Gained experience in real-time communication, WebSocket technology, and server optimization."
   },
   {
@@ -97,22 +97,5 @@
       "mentor": "Dr. Olivia Martinez",
       "timeTaken": "3.5 months",
       "knowledgeGained": "Gained experience in e-commerce management, real-time updates, and data visualization."
-  },
-  {
-      "title": "Weather Forecast App",
-      "description": "Created a weather forecast application with real-time data.",
-      "technologies": ["React.js", "JavaScript", "HTML", "CSS", "OpenWeatherMap API"],
-      "imageUrl": "./assets/Project7.jpg",
-      "bulletPoints": [
-          "Developed a weather forecast app using React.js and OpenWeatherMap API.",
-          "Implemented real-time weather data fetching and display.",
-          "Designed a user-friendly interface with dynamic weather visuals.",
-          "Ensured responsiveness."
-        
-      ],
-      "interns": "Jessica Brown, Kevin White",
-      "mentor": "Dr. Rachel Green",
-      "timeTaken": "2 months",
-      "knowledgeGained": "Enhanced skills in API integration, real-time data display, and UI design."
-  }
+    }
 ]
