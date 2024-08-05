@@ -1,115 +1,112 @@
-[
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e8e"
-    },
-    "name": "Muskan Arya",
-    "role": "Full-Stack Developer",
-    "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
-    "photo": "https://media.licdn.com/dms/image/D5603AQGlZegBnXfm9Q/profile-displayphoto-shrink_800_800/0/1710079675879?e=1727308800&v=beta&t=OIYzXq1oeZjBwdWb3RxcMxOafs2kbLd2T3T29_nOlf4",
-    "linkedin": "https://www.linkedin.com/in/muskan-arya-2210arya/",
-    "github": "https://github.com/MuskanArya22",
-    "website": "https://muskanarya22.github.io/Muskans-Portfolio/",
-    "twitter": "https://x.com/MuskanA82333319",
-    "company": "https://company.com/muskan-arya"
+[{
+  "_id": {
+    "$oid": "66a268d58a5bccfef4437e8e"
   },
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e8f"
-    },
-    "name": "Insha Khan",
-    "role": "Full-Stack Developer",
-    "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
-    "photo": "https://media.licdn.com/dms/image/D5603AQG9szZrX8YRKg/profile-displayphoto-shrink_400_400/0/1721828483157?e=1727308800&v=beta&t=-KOGZC_8s2D2kcT-eK6mtd_hc-xNfnSDqaEjbVLZmwg",
-    "linkedin": "https://www.linkedin.com/in/insha-khan-765023276/",
-    "github": "https://github.com/insha1234",
-    "website": "https://inshakhan.com",
-    "twitter": "https://twitter.com/_.inssshhh._",
-    "company": "https://company.com/insha-khan"
+  "name": "Muskan Arya",
+  "role": "Full-Stack Developer",
+  "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
+  "photo": "https://media.licdn.com/dms/image/D5603AQGlZegBnXfm9Q/profile-displayphoto-shrink_800_800/0/1710079675879?e=1727308800&v=beta&t=OIYzXq1oeZjBwdWb3RxcMxOafs2kbLd2T3T29_nOlf4",
+  "linkedin": "https://www.linkedin.com/in/muskan-arya-2210arya/",
+  "github": "https://github.com/MuskanArya22",
+  "website": "https://muskanarya22.github.io/Muskans-Portfolio/",
+  "twitter": "https://x.com/MuskanA82333319",
+  "company": "https://company.com/muskan-arya"
+},
+{
+  "_id": {
+    "$oid": "66a268d58a5bccfef4437e8f"
   },
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e90"
-    },
-    "name": "Aashi Chaudhary",
-    "role": "Full-Stack Developer",
-    "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
-    "photo": "https://media.licdn.com/dms/image/D4D03AQGAY4REjsNrNQ/profile-displayphoto-shrink_200_200/0/1679035759452?e=2147483647&v=beta&t=fBSBqRF7tDvs-kBS3r1drFv4KPrSlFJP3a49bg0jRcY",
-    "linkedin": "https://www.linkedin.com/in/aashi-chaudhary-97952a246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    "github": "https://github.com/aaxhi",
-    "website": "https://aashichaudhary.com",
-    "twitter": "https://twitter.com/aaxhii_",
-    "company": "https://company.com/aashi-chaudhary"
+  "name": "Insha Khan",
+  "role": "Data Scientist",
+  "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
+  "photo": "./assets/interns/insha.jpg",
+  "linkedin": "https://www.linkedin.com/in/insha-khan-765023276/",
+  "github": "https://github.com/insha1234",
+  "website": "https://inshakhan.com",
+  "twitter": "https://twitter.com/_.inssshhh._",
+  "company": "https://company.com/insha-khan"
+},
+{
+  "_id": {
+    "$oid": "66a268d58a5bccfef4437e90"
   },
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e91"
-    },
-    "name": "Iritqa",
-    "role": "Frontend Developer",
-    "description": "An enthusiastic frontend developer with a keen eye for detail. Specializes in creating responsive and user-friendly web interfaces.",
-    "photo": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "linkedin": "https://linkedin.com/in/johndoe",
-    "github": "https://github.com/johndoe",
-    "website": "https://johndoe.com",
-    "twitter": "https://twitter.com/johndoe",
-    "company": "https://company.com/john-doe"
+  "name": "Aashi Chaudhary",
+  "role": "Full-Stack Developer",
+  "description": "A team player with excellent communication, passionate, and self-learned coders. Learning and developing secure, efficient, and scalable web applications.",
+  "photo": "https://media.licdn.com/dms/image/D4D03AQGAY4REjsNrNQ/profile-displayphoto-shrink_200_200/0/1679035759452?e=2147483647&v=beta&t=fBSBqRF7tDvs-kBS3r1drFv4KPrSlFJP3a49bg0jRcY",
+  "linkedin": "https://www.linkedin.com/in/aashi-chaudhary-97952a246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  "github": "https://github.com/aaxhi",
+  "website": "https://aashichaudhary.com",
+  "twitter": "https://twitter.com/aaxhii_",
+  "company": "https://company.com/aashi-chaudhary"
+},
+{
+  "_id": {
+    "$oid": "66a268d58a5bccfef4437e91"
   },
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e92"
-    },
-    "name": "Nihal Saran Das Duggirala",
-    "role": "Backend Developer",
-    "description": "A highly skilled backend developer with a passion for building scalable and efficient server-side applications.",
-    "photo": "https://media.licdn.com/dms/image/D4D03AQFaaIZWO9IPQw/profile-displayphoto-shrink_400_400/0/1706756591651?e=1727913600&v=beta&t=yo1pd1Du0HZ_jcT3T6oOTNJ2wXgvf4b69tDNWDZt_DE",
-    "linkedin": "https://www.linkedin.com/in/nihal-saran-das-duggirala/",
-    "github": "https://github.com/janesmith",
-    "website": "https://janesmith.com",
-    "twitter": "https://twitter.com/janesmith",
-    "company": "https://company.com/jane-smith"
+  "name": "Iritqa",
+  "role": "Frontend Developer",
+  "description": "An enthusiastic frontend developer with a keen eye for detail. Specializes in creating responsive and user-friendly web interfaces.",
+  "photo": "./assets/interns/irtiqa.jpg",
+  "linkedin": "https://www.linkedin.com/in/irtiqa-mir/",
+  "github": "https://github.com/mirirtiqa",
+  "website": "https://irtiqa.com",
+  "twitter": "https://twitter.com/irtiqa",
+  "company": "https://company.com/irtiqa"
+},
+{
+  "_id": {
+    "$oid": "66a268d58a5bccfef4437e92"
   },
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e93"
-    },
-    "name": "Sajal Satsangi",
-    "role": "UI/UX Designer",
-    "description": "A creative and highly skilled UI/UX designer dedicated to crafting intuitive and aesthetically pleasing user experiences.",
-    "photo": "https://media.licdn.com/dms/image/D4D03AQGbLkLrr_VNKA/profile-displayphoto-shrink_400_400/0/1689824948962?e=1727913600&v=beta&t=s3803cA7u0j8pWDfAQIa5BWsr0liA8TD4o8VHVI_vmc",
-    "linkedin": "https://www.linkedin.com/in/sajal-satsangi-547802204/",
-    "github": "https://github.com/emilydavis",
-    "website": "https://emilydavis.com",
-    "twitter": "https://twitter.com/emilydavis",
-    "company": "https://company.com/emily-davis"
+  "name": "Nihal Saran Das Duggirala",
+  "role": "Backend Developer",
+  "description": "A highly skilled backend developer with a passion for building scalable and efficient server-side applications.",
+  "photo": "https://media.licdn.com/dms/image/D4D03AQFaaIZWO9IPQw/profile-displayphoto-shrink_400_400/0/1706756591651?e=1727913600&v=beta&t=yo1pd1Du0HZ_jcT3T6oOTNJ2wXgvf4b69tDNWDZt_DE",
+  "linkedin": "https://www.linkedin.com/in/nihal-saran-das-duggirala/",
+  "github": "https://github.com/nihalsaran",
+  "website": "https://nihalsaran.github.io/dev-portfolio-nihal/",
+  "twitter": "https://twitter.com/janesmith",
+  "company": "https://www.nihalsaran.live"
+},
+{
+  "_id": {
+    "$oid": "66a268d58a5bccfef4437e93"
   },
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e94"
-    },
-    "name": "Nakirekanti Shikhar",
-    "role": "Data Scientist",
-    "description": "A data scientist with a strong background in machine learning and data analysis. Passionate about deriving insights from data.",
-    "photo": "https://media.licdn.com/dms/image/D4D03AQEJoLYZ8IkgeA/profile-displayphoto-shrink_400_400/0/1685933964356?e=1727913600&v=beta&t=l9mY0lxZgPLsWUJ4hL1KF6MScjPXumy-ZCA_dq03I4w",
-    "linkedin": "https://www.linkedin.com/in/shikhar-n-a8ab80222/",
-    "github": "https://github.com/michaelbrown",
-    "website": "https://michaelbrown.com",
-    "twitter": "https://twitter.com/michaelbrown",
-    "company": "https://company.com/michael-brown"
+  "name": "Sajal Satsangi",
+  "role": "UI/UX Designer",
+  "description": "A creative and highly skilled UI/UX designer dedicated to crafting intuitive and aesthetically pleasing user experiences.",
+  "photo": "https://media.licdn.com/dms/image/D4D03AQGbLkLrr_VNKA/profile-displayphoto-shrink_400_400/0/1689824948962?e=1727913600&v=beta&t=s3803cA7u0j8pWDfAQIa5BWsr0liA8TD4o8VHVI_vmc",
+  "linkedin": "https://www.linkedin.com/in/sajal-satsangi-547802204/",
+  "github": "https://github.com/SajalSatsangi",
+  "website": "sajalsatsangi.engineer",
+  "twitter": "https://twitter.com/emilydavis",
+  "company": "https://company.com/emily-davis"
+},
+{
+  "_id": {
+    "$oid": "66a268d58a5bccfef4437e94"
   },
-  {
-    "_id": {
-      "$oid": "66a268d58a5bccfef4437e95"
-    },
-    "name": "Abhimanyu Joshi",
-    "role": "DevOps Engineer",
-    "description": "A DevOps engineer with expertise in CI/CD pipelines, cloud infrastructure, and automation. Committed to improving development workflows.",
-    "photo": "https://images.pexels.com/photos/1239293/pexels-photo-1239293.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "linkedin": "https://linkedin.com/in/sophiawilson",
-    "github": "https://github.com/sophiawilson",
-    "website": "https://sophiawilson.com",
-    "twitter": "https://twitter.com/sophiawilson",
-    "company": "https://company.com/sophia-wilson"
-  }
-]
-
+  "name": "Nakirekanti Shikhar",
+  "role": "Data Scientist",
+  "description": "A data scientist with a strong background in machine learning and data analysis. Passionate about deriving insights from data.",
+  "photo": "https://media.licdn.com/dms/image/D4D03AQEJoLYZ8IkgeA/profile-displayphoto-shrink_400_400/0/1685933964356?e=1727913600&v=beta&t=l9mY0lxZgPLsWUJ4hL1KF6MScjPXumy-ZCA_dq03I4w",
+  "linkedin": "https://www.linkedin.com/in/shikhar-n-a8ab80222/",
+  "github": "https://github.com/michaelbrown",
+  "website": "https://michaelbrown.com",
+  "twitter": "https://twitter.com/michaelbrown",
+  "company": "https://company.com/michael-brown"
+},
+{
+  "_id": {
+    "$oid": "66a268d58a5bccfef4437e95"
+  },
+  "name": "Abhimanyu Joshi",
+  "role": "DevOps Engineer",
+  "description": "A DevOps engineer with expertise in CI/CD pipelines, cloud infrastructure, and automation. Committed to improving development workflows.",
+  "photo": "https://images.pexels.com/photos/1239293/pexels-photo-1239293.jpeg?auto=compress&cs=tinysrgb&w=800",
+  "linkedin": "https://linkedin.com/in/sophiawilson",
+  "github": "https://github.com/sophiawilson",
+  "website": "https://sophiawilson.com",
+  "twitter": "https://twitter.com/sophiawilson",
+  "company": "https://company.com/sophia-wilson"
+}]
