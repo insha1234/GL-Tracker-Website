@@ -59,7 +59,7 @@ async function login(event) {
     console.log(data);
 
     if (response.status === 200) {
-        alert('Login successful');
+       
         window.location.href = 'index.html'; 
         // Optionally, you can redirect the user to another page
         // window.location.href = 'your-redirect-url.html';
