@@ -24,6 +24,83 @@
       emailjs.init("c2wT6qwBUwV3_p1iy");
    })();
 </script>
+<!-- Inline CSS for Chatbot -->
+<style>
+  .chatbot-container {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .chat-icon {
+    background-color: #f37037;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .chat-icon img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .chat-popup {
+    display: none;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+
+  .chat-popup-header {
+    background-color: #f37037;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .chat-popup-body {
+    padding: 10px;
+    height: 200px;
+    overflow-y: auto;
+  }
+
+  .chat-popup-footer {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+
+  .chat-popup-footer input {
+    width: calc(100% - 60px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .chat-popup-footer button {
+    width: 50px;
+    padding: 5px;
+    border: none;
+    background-color: #f37037;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+</style>
   </head>
   <body>
 
@@ -92,9 +169,10 @@
             <div class="carousel-caption d-none d-md-block">
               <h6
                 style="
-                  font-family: 'Lalezar', sans-serif;
+                  font-family: 'DM Sans', sans-serif;
                   font-size: 128px;
                   font-weight: bold;
+                  letter-spacing: 1px;
                   text-shadow: 0 0 1px white, 0 0 1px white, 0 0 2px white;
                 "
               >
@@ -115,7 +193,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h6
                 style="
-                  font-family: 'Lalezar', sans-serif;
+                  font-family: 'DM Sans', sans-serif;
                   font-size: 128px;
                   font-weight: bold;
                   text-shadow: 0 0 1px white, 0 0 1px white, 0 0 2px white;
@@ -138,9 +216,10 @@
             <div class="carousel-caption d-none d-md-block">
               <h6
                 style="
-                  font-family: 'Lalezar', sans-serif;
+                  font-family: 'DM Sans', sans-serif;
                   font-size: 128px;
                   font-weight: bold;
+                  letter-spacing: 1px;
                   text-shadow: 0 0 1px white, 0 0 1px white, 0 0 2px white;
                 "
               >
@@ -160,13 +239,14 @@
           <img src="assets/Slide4.jpg" class="d-block w-100" alt="Slide4" />
           <div class="carousel-caption d-none d-md-block">
             <h6
-              style="
-                font-family: 'Lalezar', sans-serif;
-                font-size: 128px;
-                font-weight: bold;
-                text-shadow: 0 0 1px white, 0 0 1px white, 0 0 2px white;
-              "
-            >
+                style="
+                  font-family: 'DM Sans', sans-serif;
+                  font-size: 128px;
+                  font-weight: bold;
+                  letter-spacing: 1px;
+                  text-shadow: 0 0 1px white, 0 0 1px white, 0 0 2px white;
+                "
+              >
               <span style="color: white">GL</span>
               <span style="color: #f37037">TRACKER</span>
             </h6>
@@ -383,7 +463,23 @@
       </div>
     </section>
 
-
+    <div class="chatbot-container">
+      <div class="chat-icon" id="chat-icon">
+        <img src="assets/talking.png" alt="Chat Icon" />
+      </div>
+      <div class="chat-popup" id="chat-popup">
+        <div class="chat-popup-header">
+          <h4>Chat with Us</h4>
+        </div>
+        <div class="chat-popup-body" id="chat-body">
+          <!-- Chat messages will appear here -->
+        </div>
+        <div class="chat-popup-footer">
+          <input type="text" id="chat-input" placeholder="Type a message..." />
+          <button id="chat-send">Send</button>
+        </div>
+      </div>
+    </div>
 
     <!-- Contact Form Section -->
     <div id="contact">
@@ -548,6 +644,9 @@
         </div>
       </section>
     </div>
+    
+  
+  
 
    <!--Footer-section-->
 
@@ -618,7 +717,41 @@
       </div>
     </div>
   </footer>
+<script>
+      document.getElementById('chat-icon').addEventListener('click', function () {
+        const popup = document.getElementById('chat-popup');
+        popup.style.display = popup.style.display === 'none' || popup.style.display === '' ? 'block' : 'none';
+      });
 
+      document.getElementById('chat-send').addEventListener('click', function () {
+        const input = document.getElementById('chat-input');
+        const message = input.value.trim();
+        if (message) {
+          const chatBody = document.getElementById('chat-body');
+          const userMessage = document.createElement('div');
+          userMessage.textContent = message;
+          chatBody.appendChild(userMessage);
+          input.value = '';
+          chatBody.scrollTop = chatBody.scrollHeight; // Scroll to the bottom
+          
+          // Simulate a response from the chatbot
+          setTimeout(() => {
+            const botMessage = document.createElement('div');
+            botMessage.textContent = 'Thank you for your message!';
+            chatBody.appendChild(botMessage);
+            chatBody.scrollTop = chatBody.scrollHeight; // Scroll to the bottom
+          }, 1000);
+        }
+      });
+
+      // Close chatbot popup when clicking outside
+      window.addEventListener('click', function (event) {
+        const popup = document.getElementById('chat-popup');
+        if (!event.target.closest('.chatbot-container')) {
+          popup.style.display = 'none';
+        }
+      });
+    </script>
     <script src="lib/jquery-3.7.1.min.js"></script>
     <script type="module" src="lib/Popper.js"></script>
     <script src="lib/ag-grid/ag-grid-community.min.js"></script>
